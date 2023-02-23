@@ -1,0 +1,2601 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>d16d73ad2d5d4cec87972bbbe462e81c</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="setup-the-spark-vm-and-complete-the-below-assignment"
+class="cell markdown" id="dOMqSrk_Q-xH">
+<h3>Setup the Spark VM and complete the below assignment</h3>
+<p>Objective:- Build a ML model to predict the employee compensation.
+The application should be modelled using Spark.</p>
+<p>You can refer to the below links for spark commands:-</p>
+<ul>
+<li><p><a href="https://spark.apache.org/docs/latest/ml-pipeline.html"
+class="uri">https://spark.apache.org/docs/latest/ml-pipeline.html</a></p></li>
+<li><p><a href="https://github.com/spark-in-action/first-edition"
+class="uri">https://github.com/spark-in-action/first-edition</a></p></li>
+<li><p><a href="https://github.com/FavioVazquez/first_spark_model"
+class="uri">https://github.com/FavioVazquez/first_spark_model</a></p></li>
+</ul>
+</section>
+<section id="predicting-employee-compensation" class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;2f9c04dd-cf52-4c53-aecd-bfe96f9529af&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+id="lAEn9f14QP0a">
+<h1>Predicting Employee Compensation</h1>
+</section>
+<section id="data-dictionary" class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;0ad7374a-5b59-4f1d-9a73-ecdf72f93ffd&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+id="SsDAS5vxQP0c">
+<h2>Data Dictionary</h2>
+<p><br><strong>Year Type</strong> - Fiscal (July through June) or
+Calendar (January through December) <br><strong>Year</strong> - An
+accounting period of 12 months. The City and County of San Francisco
+operates on a fiscal year that begins on July 1 and ends on June 30 the
+following year. The Fiscal Year ending June 30, 2012 is represented as
+FY2011-2012. <br><strong>Organization Group Code</strong> - Org Group is
+a group of Departments. For example, the Public Protection Org Group
+includes departments such as the Police,Fire, Adult Probation, District
+Attorney, and Sheriff. <br> <strong>Organization Group</strong> - Org
+Group is a group of Departments. For example, the Public Protection Org
+Group includes departments such as the Police, Fire, Adult Probation,
+District Attorney, and Sheriff. <br><strong>Department Code</strong> -
+Departments are the primary organizational unit used by the Cityand
+County of San Francisco. Examples include Recreation and Parks, Public
+Works, and the Police Department. <br><strong>Department Code</strong> -
+Departments are the primary organizational unit used by the City and
+County of San Francisco. Examples include Recreation and Parks, Public
+Works, and the Police Department. <br><strong>Union Code</strong> -
+Unions represent employees in collective bargaining agreements. A job
+belongs to one union, although some jobs are unrepresented (usually
+temporarily). <br><strong>Union</strong> - Unions represent employees in
+collective bargaining agreements. A job belongs to one union, although
+some jobs are unrepresented (usually temporarily). <br><strong>Job
+Family Code</strong> Job Family combines similar Jobs into meaningful
+groups. <br><strong>Job Family</strong> Job Family combines similar Jobs
+into meaningful groups. <br><strong>Employee Identifier</strong> Each
+distinct number in the “Employee Identifier” column represents one
+employee. These identifying numbers are not meaningful but rather are
+randomly assigned for the purpose of building this dataset. The column
+does not appear on the Employee Compensation report hosted on
+openbook.sfgov.org, but that report does show one row for each employee.
+Employee ID has been included here to allow users to reconstruct the
+original report. Note that each employee’s identifier will change each
+time this dataset is updated, so comparisons by employee across multiple
+versions of the dataset are not possible. <br><strong>Salaries</strong>
+- Normal salaries paid to permanent or temporary City employees.
+<br><strong>Overtime</strong> - Amounts paid to City employees working
+in excess of 40 hours per week. <br><strong>Other Salaries</strong> -
+Various irregular payments made to City employees including premium pay,
+incentive pay, or other one-time payments. Total Salary Number The sum
+of all salaries paid to City employees. <br><strong>Retirement</strong>
+City contributions to employee retirement plans.
+<br><strong>Health/Dental</strong> City-paid premiums to health and
+dental insurance plans covering City employees. To protect
+confidentiality as legally required, pro-rated citywide averages are
+presented in lieu of employee-specific health and dental benefits.
+<br><strong>Other Benefits</strong> Mandatory benefits paid on behalf of
+employees, such as Social Security (FICA and Medicare) contributions,
+unemployment insurance premiums, and minor discretionary benefits not
+included in the above categories. <br><strong>Total Benefits</strong>
+The sum of all benefits paid to City employees. <br><strong>Total
+Compensation</strong> The sum of all salaries and benefits paid to City
+employees.</p>
+</section>
+<div class="cell markdown" id="v_3QapC-QP0d">
+<p>Read the data and answer the following questions to predict employee
+compensation</p>
+</div>
+<div class="cell code" id="rDSGHriZxdVG">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np <span class="co"># linear algebra</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt </span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="T9uEv8Haxydp" data-outputId="bdd20595-240f-4be2-d409-802684bb6919">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>sudo apt update</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>apt<span class="op">-</span>get install openjdk<span class="op">-</span><span class="dv">8</span><span class="op">-</span>jdk<span class="op">-</span>headless <span class="op">-</span>qq <span class="op">&gt;</span> <span class="op">/</span>dev<span class="op">/</span>null</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>wget <span class="op">-</span>q https:<span class="op">//</span>dlcdn.apache.org<span class="op">/</span>spark<span class="op">/</span>spark<span class="op">-</span><span class="fl">3.3.1</span><span class="op">/</span>spark<span class="op">-</span><span class="fl">3.3.1</span><span class="op">-</span><span class="bu">bin</span><span class="op">-</span>hadoop3.tgz</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>0% [Working]            Get:1 https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/ InRelease [3,622 B]
+0% [Connecting to archive.ubuntu.com (185.125.190.39)] [Connecting to security.0% [Connecting to archive.ubuntu.com (185.125.190.39)] [Connecting to security.                                                                               Get:2 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+0% [Waiting for headers] [2 InRelease 14.2 kB/114 kB 12%] [Waiting for headers]                                                                               Hit:3 http://archive.ubuntu.com/ubuntu focal InRelease
+0% [Waiting for headers] [2 InRelease 14.2 kB/114 kB 12%] [Waiting for headers]                                                                               Ign:4 https://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu2004/x86_64  InRelease
+0% [Waiting for headers] [2 InRelease 14.2 kB/114 kB 12%] [Waiting for headers]                                                                               Hit:5 https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64  InRelease
+0% [Waiting for headers] [2 InRelease 14.2 kB/114 kB 12%] [Waiting for headers]                                                                               Hit:6 https://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu2004/x86_64  Release
+0% [Waiting for headers] [2 InRelease 14.2 kB/114 kB 12%] [Waiting for headers]                                                                               Get:7 http://ppa.launchpad.net/c2d4u.team/c2d4u4.0+/ubuntu focal InRelease [18.1 kB]
+Get:8 http://archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Hit:9 http://ppa.launchpad.net/cran/libgit2/ubuntu focal InRelease
+Get:10 http://archive.ubuntu.com/ubuntu focal-backports InRelease [108 kB]
+Get:11 http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal InRelease [18.1 kB]
+Hit:13 http://ppa.launchpad.net/graphics-drivers/ppa/ubuntu focal InRelease
+Hit:14 http://ppa.launchpad.net/ubuntugis/ppa/ubuntu focal InRelease
+Get:15 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [994 kB]
+Get:16 http://ppa.launchpad.net/c2d4u.team/c2d4u4.0+/ubuntu focal/main Sources [2,386 kB]
+Get:17 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [2,965 kB]
+Get:18 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [2,479 kB]
+Get:19 http://ppa.launchpad.net/c2d4u.team/c2d4u4.0+/ubuntu focal/main amd64 Packages [1,131 kB]
+Get:20 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [1,295 kB]
+Get:21 http://archive.ubuntu.com/ubuntu focal-updates/restricted amd64 Packages [2,062 kB]
+Get:22 http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal/main amd64 Packages [29.5 kB]
+Fetched 13.7 MB in 3s (4,670 kB/s)
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+28 packages can be upgraded. Run &#39;apt list --upgradable&#39; to see them.
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="nZWx53ZAx-IY" data-outputId="d983d813-ec71-48b0-9331-799f12b375a8">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>tar xf spark<span class="op">-</span><span class="fl">3.3.1</span><span class="op">-</span><span class="bu">bin</span><span class="op">-</span>hadoop3.tgz</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install <span class="op">-</span>q findspark</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install pyspark</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/
+Collecting pyspark
+  Downloading pyspark-3.3.1.tar.gz (281.4 MB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 281.4/281.4 MB 4.8 MB/s eta 0:00:00
+etadata (setup.py) ... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 199.7/199.7 KB 22.8 MB/s eta 0:00:00
+e=pyspark-3.3.1-py2.py3-none-any.whl size=281845512 sha256=31fca6c4261976b284f02e1c09028689623916985498b8886c29bc2cdcbac1e1
+  Stored in directory: /root/.cache/pip/wheels/43/dc/11/ec201cd671da62fa9c5cc77078235e40722170ceba231d7598
+Successfully built pyspark
+Installing collected packages: py4j, pyspark
+Successfully installed py4j-0.10.9.5 pyspark-3.3.1
+</code></pre>
+</div>
+</div>
+<div class="cell code" id="DtwLb6ULyt4v">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>os.environ[<span class="st">&quot;JAVA_HOME&quot;</span>] <span class="op">=</span> <span class="st">&quot;/usr/lib/jvm/java-8-openjdk-amd64&quot;</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>os.environ[<span class="st">&quot;SPARK_HOME&quot;</span>] <span class="op">=</span> <span class="st">&quot;/content/spark-3.3.1-bin-hadoop3&quot;</span></span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:35}"
+id="9xeUVlvFy9Ug" data-outputId="3832a0e9-34d5-436e-cb92-1108b5f21f59">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> findspark</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>findspark.init()</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>findspark.find()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="5">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;string&quot;</span><span class="fu">}</span></span></code></pre></div>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:219}"
+id="ez0jdo3A1PTU" data-outputId="5c611484-cae4-49ea-b59b-e87dad8d06fe">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.sql <span class="im">import</span> DataFrame, SparkSession</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> typing <span class="im">import</span> List</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pyspark.sql.types <span class="im">as</span> T</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pyspark.sql.functions <span class="im">as</span> F</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark <span class="im">import</span> SparkFiles</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>spark <span class="op">=</span> SparkSession <span class="op">\</span></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>       .builder <span class="op">\</span></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>       .appName(<span class="st">&quot;Our Second Spark example&quot;</span>) <span class="op">\</span></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>       .getOrCreate()</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>spark</span></code></pre></div>
+<div class="output execute_result" data-execution_count="6">
+
+            <div>
+                <p><b>SparkSession - in-memory</b></p>
+                
+        <div>
+            <p><b>SparkContext</b></p>
+
+            <p><a href="http://2c4ef880c9fd:4040">Spark UI</a></p>
+
+            <dl>
+              <dt>Version</dt>
+                <dd><code>v3.3.1</code></dd>
+              <dt>Master</dt>
+                <dd><code>local[*]</code></dd>
+              <dt>AppName</dt>
+                <dd><code>Our Second Spark example</code></dd>
+            </dl>
+        </div>
+        
+            </div>
+        
+</div>
+</div>
+<section id="1-read-the-data" class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;ffb92bbb-6e3b-46ec-885e-bb4471538c0c&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+id="_nMVTM8BQP0d">
+<h2>1. Read the Data</h2>
+</section>
+<div class="cell code" id="PW5bNl6qRY4r">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>spark<span class="op">=</span>SparkSession.builder.getOrCreate()</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="co">## ensure to use the link of the raw file of the csv</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>url <span class="op">=</span> <span class="st">&quot;https://raw.githubusercontent.com/Munasib14/SparkSql_Employees_data/master/Employee_Compensation.csv&quot;</span> <span class="co"># Make sure the url is the raw version of </span></span></code></pre></div>
+</div>
+<div class="cell code" id="m-RfJmJW1irl">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>spark.sparkContext.addFile(url)</span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="hdbFw58TRjQd" data-outputId="4dc2b7ee-28c3-44a9-a503-87fcf4dd17ad">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Reading the downloaded content and turning it into a pandas dataframe</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>rawDF <span class="op">=</span> spark.read.csv(SparkFiles.get(<span class="st">&quot;Employee_Compensation.csv&quot;</span>),inferSchema<span class="op">=</span><span class="va">True</span>, header<span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>rawDF.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>+---------+----+-----------------------+--------------------+---------------+--------------------+----------+--------------------+---------------+--------------------+--------+--------------------+-------------------+---------+--------+--------------+------------+----------+-------------+--------------+--------------+------------------+
+|Year Type|Year|Organization Group Code|  Organization Group|Department Code|          Department|Union Code|               Union|Job Family Code|          Job Family|Job Code|                 Job|Employee Identifier| Salaries|Overtime|Other Salaries|Total Salary|Retirement|Health/Dental|Other Benefits|Total Benefits|Total Compensation|
++---------+----+-----------------------+--------------------+---------------+--------------------+----------+--------------------+---------------+--------------------+--------+--------------------+-------------------+---------+--------+--------------+------------+----------+-------------+--------------+--------------+------------------+
+|   Fiscal|2016|                      1|   Public Protection|            DAT|   District Attorney|       311|Municipal Attorne...|           8100|       Legal &amp; Court|    8177|Attorney (Civil/C...|              49919|114473.16|     0.0|        1500.0|   115973.16|  21025.98|      13068.8|       9368.71|      43463.49|         159436.65|
+| Calendar|2013|                      5|Culture &amp; Recreation|            ART|     Arts Commission|       790|SEIU - Miscellane...|           1800|Budget, Admn &amp; St...|    1844|Senior Management...|               1225| 84077.11|     0.0|           0.0|    84077.11|   16587.3|     12457.73|       6931.91|      35976.94|         120054.05|
+| Calendar|2015|                      4|    Community Health|            DPH|       Public Health|       535|SEIU - Human Serv...|           2900|      Human Services|    2903|  Eligibility Worker|              34873|  9980.17|     0.0|        798.43|     10778.6|       0.0|      2254.93|        835.11|       3090.04|          13868.64|
+|   Fiscal|2015|                      4|    Community Health|            DPH|       Public Health|       250|SEIU - Health Wor...|           2200|    Medical &amp; Dental|    2202|         Dental Aide|              51145|  2873.41|     0.0|           0.0|     2873.41|       0.0|       622.63|        222.46|        845.09|            3718.5|
+|   Fiscal|2014|                      5|Culture &amp; Recreation|            REC|Recreation and Pa...|       790|SEIU - Miscellane...|           3200|          Recreation|    3279|   Recreation Leader|              48705|  6701.85|     0.0|         176.7|     6878.55|       0.0|      2711.66|        538.43|       3250.09|          10128.64|
+|   Fiscal|2013|                      2|Public Works, Tra...|            DPW|General Services ...|        21|Prof &amp; Tech Engin...|           5300|Sub-Professional ...|    5380|Stdntdsgntrain1, ...|              19801| 45321.18|     0.0|           0.0|    45321.18|   9386.03|      11780.6|       3486.34|      24652.97|          69974.15|
+|   Fiscal|2015|                      5|Culture &amp; Recreation|            LIB|      Public Library|       790|SEIU - Miscellane...|           3600|             Library|    3610|   Library Assistant|              14135|  28305.5|     0.0|       1193.14|    29498.64|   6616.52|      5793.48|       2430.74|      14840.74|          44339.38|
+|   Fiscal|2014|                      6|General Administr...|            ASR|   Assessor/Recorder|        21|Prof &amp; Tech Engin...|           4200|Appraisal &amp; Taxation|    4261|Real Property App...|              37352| 39938.09|     0.0|         800.0|    40738.09|   8685.34|      7269.02|       3277.52|      19231.88|          59969.97|
+| Calendar|2015|                      1|   Public Protection|            POL|              Police|       911|Police Officers&#39; ...|           Q000|     Police Services|    Q060|Lieutenant (Polic...|              13380|  23112.0| 2312.73|      20944.16|    46368.89|   4183.12|      1911.46|         68.84|       6163.42|          52532.31|
+|   Fiscal|2014|                      1|   Public Protection|            SHF|             Sheriff|       498|Deputy Sheriffs&#39; ...|           8300|Correction &amp; Dete...|    8304|      Deputy Sheriff|              46569| 89101.22| 6856.77|       5563.78|   101521.77|  17596.33|     12512.55|       1627.91|      31736.79|         133258.56|
+|   Fiscal|2015|                      2|Public Works, Tra...|            AIR|  Airport Commission|       790|SEIU - Miscellane...|           9900| Public Service Aide|    9920|Publ Svc Aide-Ass...|              38170|  7091.33|     0.0|           0.0|     7091.33|       0.0|      2361.82|        549.01|       2910.83|          10002.16|
+|   Fiscal|2013|                      2|Public Works, Tra...|            DPW|General Services ...|        21|Prof &amp; Tech Engin...|           6200|Public Safety Ins...|    6230|    Street Inspector|              28940| 57467.12|  355.65|           0.0|    57822.77|  11901.38|     11933.98|       4691.34|       28526.7|          86349.47|
+| Calendar|2015|                      5|Culture &amp; Recreation|            REC|Recreation and Pa...|       261| Laborers, Local 261|           3400|Agriculture &amp; Hor...|    3422|Park Section Supe...|              10817|  80357.0| 5612.97|           7.9|    85977.87|  16562.14|      12424.5|       7091.69|      36078.33|          122056.2|
+|   Fiscal|2013|                      2|Public Works, Tra...|            MTA|Municipal Transpo...|       253|Transport Workers...|           9100|      Street Transit|    9163|    Transit Operator|              21370| 64170.89|13128.97|       2677.81|    79977.67|  17109.68|     13379.17|       6204.01|      36692.86|         116670.53|
+|   Fiscal|2016|                      3|Human Welfare &amp; N...|            DSS|      Human Services|        22|Prof &amp; Tech Engin...|           1200|           Personnel|    1241|   Personnel Analyst|              37341| 83038.01|     0.0|         200.0|    83238.01|  15490.62|      13068.8|       6525.06|      35084.48|         118322.49|
+| Calendar|2014|                      6|General Administr...|            ADM|General Services ...|        16|Theatrical and St...|           1700|Computer Operatns...|    1777|Media/Security Sy...|              34486| 92530.82|     0.0|      13412.58|    105943.4|  20224.21|     13054.94|       8450.17|      41729.32|         147672.72|
+| Calendar|2015|                      2|Public Works, Tra...|            MTA|Municipal Transpo...|       253|Transport Workers...|           9100|      Street Transit|    9163|    Transit Operator|               4273| 44381.77|11166.58|       2694.49|    58242.84|   13602.2|       8826.1|        4423.7|       26852.0|          85094.84|
+|   Fiscal|2014|                      2|Public Works, Tra...|            MTA|Municipal Transpo...|       790|SEIU - Miscellane...|           9100|      Street Transit|    9131|Station Agent, Mu...|              13061|  78639.3|20332.03|       7821.87|    106793.2|  17683.84|     12512.54|       8707.07|      38903.45|         145696.65|
+|   Fiscal|2014|                      1|   Public Protection|            DAT|   District Attorney|       311|Municipal Attorne...|           8100|       Legal &amp; Court|    8177|Attorney (Civil/C...|              10747|176267.41|     0.0|        1250.0|   177517.41|  36959.07|     12512.55|      10479.18|       59950.8|         237468.21|
+|   Fiscal|2015|                      2|Public Works, Tra...|            WTR|PUC Water Department|        38|Plumbers and Pipe...|           7300|    Journeyman Trade|    7316|Water Service Ins...|              37594|100655.41| 8240.09|      16911.85|   125807.35|  24354.06|     12500.56|       9962.73|      46817.35|          172624.7|
++---------+----+-----------------------+--------------------+---------------+--------------------+----------+--------------------+---------------+--------------------+--------+--------------------+-------------------+---------+--------+--------------+------------+----------+-------------+--------------+--------------+------------------+
+only showing top 20 rows
+
+</code></pre>
+</div>
+</div>
+<section id="11-display-the-number-of-rows-and-columns-in-the-dataset"
+class="cell markdown" id="aWQ3YZi0RdP_">
+<h3>1.1 Display the number of rows and columns in the dataset</h3>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="fC5SJTwj2xJ8" data-outputId="34269db8-82a3-4f79-b916-14d0df3e749f">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Number of Rows: &quot;</span>, rawDF.count())</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Number of Columns&quot;</span>, <span class="bu">len</span>(rawDF.columns))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Number of Rows:  291825
+Number of Columns 22
+</code></pre>
+</div>
+</div>
+<section id="12-check-the-datatype-of-the-variables"
+class="cell markdown" id="cZYaCB4cRjjg">
+<h3>1.2 Check the datatype of the variables</h3>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="jdPpc_mgRpva" data-outputId="6ef6a7dc-8e46-4ed7-9a39-01b245d8e4ce">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>rawDF.printSchema()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>root
+ |-- Year Type: string (nullable = true)
+ |-- Year: integer (nullable = true)
+ |-- Organization Group Code: integer (nullable = true)
+ |-- Organization Group: string (nullable = true)
+ |-- Department Code: string (nullable = true)
+ |-- Department: string (nullable = true)
+ |-- Union Code: integer (nullable = true)
+ |-- Union: string (nullable = true)
+ |-- Job Family Code: string (nullable = true)
+ |-- Job Family: string (nullable = true)
+ |-- Job Code: string (nullable = true)
+ |-- Job: string (nullable = true)
+ |-- Employee Identifier: integer (nullable = true)
+ |-- Salaries: double (nullable = true)
+ |-- Overtime: double (nullable = true)
+ |-- Other Salaries: double (nullable = true)
+ |-- Total Salary: double (nullable = true)
+ |-- Retirement: double (nullable = true)
+ |-- Health/Dental: double (nullable = true)
+ |-- Other Benefits: double (nullable = true)
+ |-- Total Benefits: double (nullable = true)
+ |-- Total Compensation: double (nullable = true)
+
+</code></pre>
+</div>
+</div>
+<section
+id="2-convert-the-incorrect-column-type-into-its-suitable-column-type-and-drop-the-redundant-features"
+class="cell markdown" id="re0TB8PAQP0f">
+<h3>2. Convert the incorrect column type into its suitable column type.
+And drop the redundant features</h3>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-collapsed="true" id="173LNkp7QP0f"
+data-outputId="ef67399d-67d0-4dd7-8876-edb63d2df148">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.sql.types <span class="im">import</span> DoubleType</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.sql.functions <span class="im">import</span> col</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Converting Inter type data columns to Double type data columns</span></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>refinedDF<span class="op">=</span> rawDF.withColumn(<span class="st">&#39;Year&#39;</span>,col(<span class="st">&#39;Year&#39;</span>).cast(DoubleType()))</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>refinedDF<span class="op">=</span> refinedDF.withColumn(<span class="st">&#39;Organization Group Code&#39;</span>,col(<span class="st">&#39;Organization Group Code&#39;</span>).cast(DoubleType()))</span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>refinedDF<span class="op">=</span> refinedDF.withColumn(<span class="st">&#39;Union Code&#39;</span>,col(<span class="st">&#39;Union Code&#39;</span>).cast(DoubleType()))</span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>refinedDF<span class="op">=</span> refinedDF.withColumn(<span class="st">&#39;Employee Identifier&#39;</span>,col(<span class="st">&#39;Employee Identifier&#39;</span>).cast(DoubleType()))</span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>refinedDF.printSchema()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>root
+ |-- Year Type: string (nullable = true)
+ |-- Year: double (nullable = true)
+ |-- Organization Group Code: double (nullable = true)
+ |-- Organization Group: string (nullable = true)
+ |-- Department Code: string (nullable = true)
+ |-- Department: string (nullable = true)
+ |-- Union Code: double (nullable = true)
+ |-- Union: string (nullable = true)
+ |-- Job Family Code: string (nullable = true)
+ |-- Job Family: string (nullable = true)
+ |-- Job Code: string (nullable = true)
+ |-- Job: string (nullable = true)
+ |-- Employee Identifier: double (nullable = true)
+ |-- Salaries: double (nullable = true)
+ |-- Overtime: double (nullable = true)
+ |-- Other Salaries: double (nullable = true)
+ |-- Total Salary: double (nullable = true)
+ |-- Retirement: double (nullable = true)
+ |-- Health/Dental: double (nullable = true)
+ |-- Other Benefits: double (nullable = true)
+ |-- Total Benefits: double (nullable = true)
+ |-- Total Compensation: double (nullable = true)
+
+</code></pre>
+</div>
+</div>
+<section
+id="3-check-basic-statistics-and-perform-necessary-data-preprocessing-like-removing-negative-amount"
+class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;28154731-5e40-46a7-b9b3-9444c20c97e8&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+id="LYYQFu0dQP0g">
+<h3>3. Check basic statistics and perform necessary data preprocessing
+(Like removing negative amount)</h3>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:386}"
+id="zq-WASH3slwM" data-outputId="36b469cd-e46a-49ab-fca9-fb167b8fb4a6">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>refinedDF.describe().toPandas()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="13">
+
+  <div id="df-0245507d-3676-4721-aa77-530c8acfb8d6">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>summary</th>
+      <th>Year Type</th>
+      <th>Year</th>
+      <th>Organization Group Code</th>
+      <th>Organization Group</th>
+      <th>Department Code</th>
+      <th>Department</th>
+      <th>Union Code</th>
+      <th>Union</th>
+      <th>Job Family Code</th>
+      <th>...</th>
+      <th>Employee Identifier</th>
+      <th>Salaries</th>
+      <th>Overtime</th>
+      <th>Other Salaries</th>
+      <th>Total Salary</th>
+      <th>Retirement</th>
+      <th>Health/Dental</th>
+      <th>Other Benefits</th>
+      <th>Total Benefits</th>
+      <th>Total Compensation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>count</td>
+      <td>291825</td>
+      <td>291825</td>
+      <td>291825</td>
+      <td>291825</td>
+      <td>291825</td>
+      <td>291825</td>
+      <td>291782</td>
+      <td>291782</td>
+      <td>291780</td>
+      <td>...</td>
+      <td>291825</td>
+      <td>291825</td>
+      <td>291825</td>
+      <td>291825</td>
+      <td>291825</td>
+      <td>291825</td>
+      <td>291825</td>
+      <td>291825</td>
+      <td>291825</td>
+      <td>291825</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>mean</td>
+      <td>None</td>
+      <td>2014.325061252463</td>
+      <td>2.9770513150004283</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>489.5060764543392</td>
+      <td>None</td>
+      <td>4778.5595401977025</td>
+      <td>...</td>
+      <td>26917.83031611411</td>
+      <td>63210.17288680958</td>
+      <td>4406.877439766992</td>
+      <td>3781.032869870591</td>
+      <td>71398.08319644183</td>
+      <td>12937.728957114685</td>
+      <td>8921.893731721031</td>
+      <td>4644.2764069562145</td>
+      <td>26503.899095793855</td>
+      <td>97901.98229222857</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>stddev</td>
+      <td>None</td>
+      <td>1.0322652725499475</td>
+      <td>1.5777709265315083</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>333.7611361507317</td>
+      <td>None</td>
+      <td>3090.28317174425</td>
+      <td>...</td>
+      <td>15548.201986568694</td>
+      <td>44660.46230493864</td>
+      <td>11079.405928192673</td>
+      <td>7697.665317297405</td>
+      <td>52224.214098750745</td>
+      <td>9785.06480840167</td>
+      <td>4900.318082757292</td>
+      <td>3787.9070104212783</td>
+      <td>16800.143146558938</td>
+      <td>67777.54915227571</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>min</td>
+      <td>Calendar</td>
+      <td>2013.0</td>
+      <td>1.0</td>
+      <td>Community Health</td>
+      <td>AAM</td>
+      <td>Academy of Sciences</td>
+      <td>1.0</td>
+      <td>Automotive Machinists, Local 1414</td>
+      <td>0900</td>
+      <td>...</td>
+      <td>1.0</td>
+      <td>-68771.78</td>
+      <td>-12308.66</td>
+      <td>-19131.1</td>
+      <td>-68771.78</td>
+      <td>-30621.43</td>
+      <td>-2940.47</td>
+      <td>-10636.5</td>
+      <td>-21295.15</td>
+      <td>-74082.61</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>max</td>
+      <td>Fiscal</td>
+      <td>2016.0</td>
+      <td>7.0</td>
+      <td>Public Works, Transportation &amp; Commerce</td>
+      <td>WTR</td>
+      <td>War Memorial</td>
+      <td>990.0</td>
+      <td>Transportation Workers, Local 200</td>
+      <td>SFRA</td>
+      <td>...</td>
+      <td>53794.0</td>
+      <td>515101.8</td>
+      <td>227313.62</td>
+      <td>342802.63</td>
+      <td>515101.8</td>
+      <td>105052.98</td>
+      <td>21872.8</td>
+      <td>35157.63</td>
+      <td>141043.64</td>
+      <td>653498.15</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 23 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-0245507d-3676-4721-aa77-530c8acfb8d6')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-0245507d-3676-4721-aa77-530c8acfb8d6 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-0245507d-3676-4721-aa77-530c8acfb8d6');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:770}"
+id="25-3Eca43kdX" data-outputId="6fd8cc34-6454-4b71-bffb-a927fc2b2bf9">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>refinedDF.describe().toPandas().transpose()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="14">
+
+  <div id="df-24a6ca6b-4183-4851-ad5e-94aba04a56f8">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>summary</th>
+      <td>count</td>
+      <td>mean</td>
+      <td>stddev</td>
+      <td>min</td>
+      <td>max</td>
+    </tr>
+    <tr>
+      <th>Year Type</th>
+      <td>291825</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Calendar</td>
+      <td>Fiscal</td>
+    </tr>
+    <tr>
+      <th>Year</th>
+      <td>291825</td>
+      <td>2014.325061252463</td>
+      <td>1.0322652725499475</td>
+      <td>2013.0</td>
+      <td>2016.0</td>
+    </tr>
+    <tr>
+      <th>Organization Group Code</th>
+      <td>291825</td>
+      <td>2.9770513150004283</td>
+      <td>1.5777709265315083</td>
+      <td>1.0</td>
+      <td>7.0</td>
+    </tr>
+    <tr>
+      <th>Organization Group</th>
+      <td>291825</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Community Health</td>
+      <td>Public Works, Transportation &amp; Commerce</td>
+    </tr>
+    <tr>
+      <th>Department Code</th>
+      <td>291825</td>
+      <td>None</td>
+      <td>None</td>
+      <td>AAM</td>
+      <td>WTR</td>
+    </tr>
+    <tr>
+      <th>Department</th>
+      <td>291825</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Academy of Sciences</td>
+      <td>War Memorial</td>
+    </tr>
+    <tr>
+      <th>Union Code</th>
+      <td>291782</td>
+      <td>489.5060764543392</td>
+      <td>333.7611361507317</td>
+      <td>1.0</td>
+      <td>990.0</td>
+    </tr>
+    <tr>
+      <th>Union</th>
+      <td>291782</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Automotive Machinists, Local 1414</td>
+      <td>Transportation Workers, Local 200</td>
+    </tr>
+    <tr>
+      <th>Job Family Code</th>
+      <td>291780</td>
+      <td>4778.5595401977025</td>
+      <td>3090.28317174425</td>
+      <td>0900</td>
+      <td>SFRA</td>
+    </tr>
+    <tr>
+      <th>Job Family</th>
+      <td>291780</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Administrative &amp; Mgmt (Unrep)</td>
+      <td>Supervisory-Labor &amp; Trade</td>
+    </tr>
+    <tr>
+      <th>Job Code</th>
+      <td>291825</td>
+      <td>4911.798751534337</td>
+      <td>3128.4123150253026</td>
+      <td>0109</td>
+      <td>Q082</td>
+    </tr>
+    <tr>
+      <th>Job</th>
+      <td>291825</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Account Clerk</td>
+      <td>Youth Comm Advisor</td>
+    </tr>
+    <tr>
+      <th>Employee Identifier</th>
+      <td>291825</td>
+      <td>26917.83031611411</td>
+      <td>15548.201986568694</td>
+      <td>1.0</td>
+      <td>53794.0</td>
+    </tr>
+    <tr>
+      <th>Salaries</th>
+      <td>291825</td>
+      <td>63210.17288680958</td>
+      <td>44660.46230493864</td>
+      <td>-68771.78</td>
+      <td>515101.8</td>
+    </tr>
+    <tr>
+      <th>Overtime</th>
+      <td>291825</td>
+      <td>4406.877439766992</td>
+      <td>11079.405928192673</td>
+      <td>-12308.66</td>
+      <td>227313.62</td>
+    </tr>
+    <tr>
+      <th>Other Salaries</th>
+      <td>291825</td>
+      <td>3781.032869870591</td>
+      <td>7697.665317297405</td>
+      <td>-19131.1</td>
+      <td>342802.63</td>
+    </tr>
+    <tr>
+      <th>Total Salary</th>
+      <td>291825</td>
+      <td>71398.08319644183</td>
+      <td>52224.214098750745</td>
+      <td>-68771.78</td>
+      <td>515101.8</td>
+    </tr>
+    <tr>
+      <th>Retirement</th>
+      <td>291825</td>
+      <td>12937.728957114685</td>
+      <td>9785.06480840167</td>
+      <td>-30621.43</td>
+      <td>105052.98</td>
+    </tr>
+    <tr>
+      <th>Health/Dental</th>
+      <td>291825</td>
+      <td>8921.893731721031</td>
+      <td>4900.318082757292</td>
+      <td>-2940.47</td>
+      <td>21872.8</td>
+    </tr>
+    <tr>
+      <th>Other Benefits</th>
+      <td>291825</td>
+      <td>4644.2764069562145</td>
+      <td>3787.9070104212783</td>
+      <td>-10636.5</td>
+      <td>35157.63</td>
+    </tr>
+    <tr>
+      <th>Total Benefits</th>
+      <td>291825</td>
+      <td>26503.899095793855</td>
+      <td>16800.143146558938</td>
+      <td>-21295.15</td>
+      <td>141043.64</td>
+    </tr>
+    <tr>
+      <th>Total Compensation</th>
+      <td>291825</td>
+      <td>97901.98229222857</td>
+      <td>67777.54915227571</td>
+      <td>-74082.61</td>
+      <td>653498.15</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-24a6ca6b-4183-4851-ad5e-94aba04a56f8')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-24a6ca6b-4183-4851-ad5e-94aba04a56f8 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-24a6ca6b-4183-4851-ad5e-94aba04a56f8');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell code" id="ryKu_h3qsy_0">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pyspark.sql.functions <span class="im">as</span> func</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col_name <span class="kw">in</span> refinedDF.columns:</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>  <span class="co"># rawDF = rawDF.withColumn(col_name, when(rawDF[col_name] &lt; 0, float(&quot;NaN&quot;)).otherwise(rawDF[col_name]))</span></span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>  refinedDF <span class="op">=</span> refinedDF.withColumn(col_name, F.when(refinedDF[col_name] <span class="op">&lt;</span> <span class="dv">0</span>, <span class="va">None</span>).otherwise(refinedDF[col_name]))</span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:386}"
+id="nbytWx7RtGpw" data-outputId="ba230559-af69-4cf1-b245-a93782c732b8">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>refinedDF.describe().toPandas()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="16">
+
+  <div id="df-11c868ca-c116-4593-8a5e-559957d509ea">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>summary</th>
+      <th>Year Type</th>
+      <th>Year</th>
+      <th>Organization Group Code</th>
+      <th>Organization Group</th>
+      <th>Department Code</th>
+      <th>Department</th>
+      <th>Union Code</th>
+      <th>Union</th>
+      <th>Job Family Code</th>
+      <th>...</th>
+      <th>Employee Identifier</th>
+      <th>Salaries</th>
+      <th>Overtime</th>
+      <th>Other Salaries</th>
+      <th>Total Salary</th>
+      <th>Retirement</th>
+      <th>Health/Dental</th>
+      <th>Other Benefits</th>
+      <th>Total Benefits</th>
+      <th>Total Compensation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>count</td>
+      <td>291825</td>
+      <td>291825</td>
+      <td>291825</td>
+      <td>291825</td>
+      <td>291825</td>
+      <td>291825</td>
+      <td>291782</td>
+      <td>291782</td>
+      <td>291780</td>
+      <td>...</td>
+      <td>291825</td>
+      <td>291746</td>
+      <td>291795</td>
+      <td>291763</td>
+      <td>291774</td>
+      <td>291403</td>
+      <td>291481</td>
+      <td>291146</td>
+      <td>291376</td>
+      <td>291579</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>mean</td>
+      <td>None</td>
+      <td>2014.325061252463</td>
+      <td>2.9770513150004283</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>489.5060764543392</td>
+      <td>None</td>
+      <td>4778.5595401977025</td>
+      <td>...</td>
+      <td>26917.83031611411</td>
+      <td>63228.037457011254</td>
+      <td>4407.392725372273</td>
+      <td>3782.059353996173</td>
+      <td>71411.11328192928</td>
+      <td>12958.483113900646</td>
+      <td>8932.547398833873</td>
+      <td>4656.192969953201</td>
+      <td>26546.06917920503</td>
+      <td>97985.41488186597</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>stddev</td>
+      <td>None</td>
+      <td>1.0322652725499475</td>
+      <td>1.5777709265315083</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>333.7611361507317</td>
+      <td>None</td>
+      <td>3090.28317174425</td>
+      <td>...</td>
+      <td>15548.201986568694</td>
+      <td>44653.11304184088</td>
+      <td>11079.836678802836</td>
+      <td>7698.059385581305</td>
+      <td>52219.321660205824</td>
+      <td>9775.357283416884</td>
+      <td>4893.374699008634</td>
+      <td>3783.539892869415</td>
+      <td>16778.311516930185</td>
+      <td>67745.05335010726</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>min</td>
+      <td>Calendar</td>
+      <td>2013.0</td>
+      <td>1.0</td>
+      <td>Community Health</td>
+      <td>AAM</td>
+      <td>Academy of Sciences</td>
+      <td>1.0</td>
+      <td>Automotive Machinists, Local 1414</td>
+      <td>0900</td>
+      <td>...</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>max</td>
+      <td>Fiscal</td>
+      <td>2016.0</td>
+      <td>7.0</td>
+      <td>Public Works, Transportation &amp; Commerce</td>
+      <td>WTR</td>
+      <td>War Memorial</td>
+      <td>990.0</td>
+      <td>Transportation Workers, Local 200</td>
+      <td>SFRA</td>
+      <td>...</td>
+      <td>53794.0</td>
+      <td>515101.8</td>
+      <td>227313.62</td>
+      <td>342802.63</td>
+      <td>515101.8</td>
+      <td>105052.98</td>
+      <td>21872.8</td>
+      <td>35157.63</td>
+      <td>141043.64</td>
+      <td>653498.15</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 23 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-11c868ca-c116-4593-8a5e-559957d509ea')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-11c868ca-c116-4593-8a5e-559957d509ea button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-11c868ca-c116-4593-8a5e-559957d509ea');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell code" id="GGWeDDK9bIct">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>dropping_columns <span class="op">=</span> [<span class="st">&#39;Year&#39;</span>,<span class="st">&#39;Organization Group&#39;</span>,<span class="st">&#39;Department&#39;</span>,<span class="st">&#39;Union&#39;</span>,</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>                   <span class="st">&#39;Job Family Code&#39;</span>,<span class="st">&#39;Job Family&#39;</span>,<span class="st">&#39;Job&#39;</span>,<span class="st">&#39;Employee Identifier&#39;</span>,<span class="st">&#39;Total Salary&#39;</span>]</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a><span class="co">#dropping the columns</span></span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> dropping_columns:</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>  refinedDF <span class="op">=</span> refinedDF.drop(i)</span></code></pre></div>
+</div>
+<section id="4-perform-missing-value-analysis" class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;5b4a36b1-7f14-4a99-851e-492fd8ebb193&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+id="woI-NVRxQP0g">
+<h3>4. Perform Missing Value Analysis</h3>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-collapsed="true" id="T7kTJJ_QQP0g"
+data-outputId="901a1c46-b045-4eec-8ae6-39e785d25ddb">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.sql.functions <span class="im">import</span> isnull, when, count, col</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>refinedDF.select([count(when(isnull(c), c)).alias(c) <span class="cf">for</span> c <span class="kw">in</span> refinedDF.columns]).show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>+---------+-----------------------+---------------+----------+--------+--------+--------+--------------+----------+-------------+--------------+--------------+------------------+
+|Year Type|Organization Group Code|Department Code|Union Code|Job Code|Salaries|Overtime|Other Salaries|Retirement|Health/Dental|Other Benefits|Total Benefits|Total Compensation|
++---------+-----------------------+---------------+----------+--------+--------+--------+--------------+----------+-------------+--------------+--------------+------------------+
+|        0|                      0|              0|        43|       0|      79|      30|            62|       422|          344|           679|           449|               246|
++---------+-----------------------+---------------+----------+--------+--------+--------+--------------+----------+-------------+--------------+--------------+------------------+
+
+</code></pre>
+</div>
+</div>
+<section id="5-exploratory-data-analysis" class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;9cd43cd2-ed88-4edf-ba6f-7e7e6f2f65d1&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+id="K_KbHnjZQP0g">
+<h3>5. Exploratory Data Analysis</h3>
+</section>
+<div class="cell code" id="QcevTNFeq88x">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>refinedDF <span class="op">=</span> refinedDF.na.drop()</span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:287}"
+id="NqEnIJtB55gP" data-outputId="eb238038-b81f-4dbb-d315-7aa9b17e417a">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>refinedDF.describe().toPandas()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="20">
+
+  <div id="df-f00209c9-ba8b-430a-866c-1c5baa8a894a">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>summary</th>
+      <th>Year Type</th>
+      <th>Organization Group Code</th>
+      <th>Department Code</th>
+      <th>Union Code</th>
+      <th>Job Code</th>
+      <th>Salaries</th>
+      <th>Overtime</th>
+      <th>Other Salaries</th>
+      <th>Retirement</th>
+      <th>Health/Dental</th>
+      <th>Other Benefits</th>
+      <th>Total Benefits</th>
+      <th>Total Compensation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>count</td>
+      <td>290348</td>
+      <td>290348</td>
+      <td>290348</td>
+      <td>290348</td>
+      <td>290348</td>
+      <td>290348</td>
+      <td>290348</td>
+      <td>290348</td>
+      <td>290348</td>
+      <td>290348</td>
+      <td>290348</td>
+      <td>290348</td>
+      <td>290348</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>mean</td>
+      <td>None</td>
+      <td>2.974516786752449</td>
+      <td>None</td>
+      <td>488.6780862964443</td>
+      <td>4914.051834392377</td>
+      <td>63464.28794688854</td>
+      <td>4428.9518982738045</td>
+      <td>3776.793112058584</td>
+      <td>12992.41081133671</td>
+      <td>8962.368719741471</td>
+      <td>4665.159130526113</td>
+      <td>26619.938661606207</td>
+      <td>98289.97161881471</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>stddev</td>
+      <td>None</td>
+      <td>1.578720129529133</td>
+      <td>None</td>
+      <td>333.81800306485326</td>
+      <td>3128.6994352092333</td>
+      <td>44584.810580813595</td>
+      <td>11103.097103077793</td>
+      <td>7620.245695416703</td>
+      <td>9767.174924191759</td>
+      <td>4875.482131943269</td>
+      <td>3782.560198233237</td>
+      <td>16750.737751121855</td>
+      <td>67671.28008713707</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>min</td>
+      <td>Calendar</td>
+      <td>1.0</td>
+      <td>AAM</td>
+      <td>1.0</td>
+      <td>0109</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>max</td>
+      <td>Fiscal</td>
+      <td>7.0</td>
+      <td>WTR</td>
+      <td>990.0</td>
+      <td>Q082</td>
+      <td>515101.8</td>
+      <td>227313.62</td>
+      <td>342802.63</td>
+      <td>105052.98</td>
+      <td>21872.8</td>
+      <td>35157.63</td>
+      <td>141043.64</td>
+      <td>653498.15</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-f00209c9-ba8b-430a-866c-1c5baa8a894a')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-f00209c9-ba8b-430a-866c-1c5baa8a894a button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-f00209c9-ba8b-430a-866c-1c5baa8a894a');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="jDt36KWHobOf" data-outputId="db5328f2-49a3-4746-9762-8a85c1452818">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.sql.functions <span class="im">import</span> isnull, when, count, col</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>refinedDF.select([count(when(isnull(c), c)).alias(c) <span class="cf">for</span> c <span class="kw">in</span> refinedDF.columns]).show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>+---------+-----------------------+---------------+----------+--------+--------+--------+--------------+----------+-------------+--------------+--------------+------------------+
+|Year Type|Organization Group Code|Department Code|Union Code|Job Code|Salaries|Overtime|Other Salaries|Retirement|Health/Dental|Other Benefits|Total Benefits|Total Compensation|
++---------+-----------------------+---------------+----------+--------+--------+--------+--------------+----------+-------------+--------------+--------------+------------------+
+|        0|                      0|              0|         0|       0|       0|       0|             0|         0|            0|             0|             0|                 0|
++---------+-----------------------+---------------+----------+--------+--------+--------+--------------+----------+-------------+--------------+--------------+------------------+
+
+</code></pre>
+</div>
+</div>
+<section
+id="51-find-top-compensating-organizations-display-using-bar-plot"
+class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;44aa560c-5c6a-4188-a740-5e49cd147b26&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+id="5hea56hUQP0h">
+<h4>5.1. Find top compensating organizations. Display using bar
+plot</h4>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="aENfkkpJ6t4z" data-outputId="d8722938-a61b-4ae9-bb52-4effe1d1fca8">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pyspark.sql.functions <span class="im">as</span> F</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.sql.functions <span class="im">import</span> desc</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>org_df <span class="op">=</span> rawDF.groupby(<span class="st">&#39;Organization Group&#39;</span>).<span class="bu">max</span>().select([<span class="st">&#39;Organization Group&#39;</span>, <span class="st">&#39;max(Total Compensation)&#39;</span>]).orderBy(desc(<span class="st">&quot;max(Total Compensation)&quot;</span>))</span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>org_df.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>+--------------------+-----------------------+
+|  Organization Group|max(Total Compensation)|
++--------------------+-----------------------+
+|General Administr...|              653498.15|
+|   Public Protection|              510574.44|
+|Public Works, Tra...|              430872.68|
+|    Community Health|              422799.94|
+|Human Welfare &amp; N...|               372586.3|
+|Culture &amp; Recreation|              318713.18|
+|General City Resp...|              137930.88|
++--------------------+-----------------------+
+
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:492}"
+data-collapsed="true" id="kpaIAoMQQP0h"
+data-outputId="41cb4e07-2f6d-4791-d693-5b364cffc03f">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> plt.figure(figsize <span class="op">=</span>(<span class="dv">25</span>, <span class="dv">10</span>))</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>org_df<span class="op">=</span>org_df.toPandas()</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>plt.bar(org_df[<span class="st">&quot;Organization Group&quot;</span>], org_df[<span class="st">&quot;max(Total Compensation)&quot;</span>])</span></code></pre></div>
+<div class="output execute_result" data-execution_count="23">
+<pre><code>&lt;BarContainer object of 7 artists&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_b1a939fdab0940e98a56b1c13afeaba7/fd68f9e2e7083a07948a62b1e77c3ce57e5811d2.png" /></p>
+</div>
+</div>
+<section id="52-find-top-compensating-jobs-display-using-bar-plot"
+class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;c991e941-045b-4556-ba17-f9c5454fdf06&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+id="hijeAEfXQP0h">
+<h4>5.2. Find top Compensating Jobs. Display using bar plot</h4>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-collapsed="true" id="AmdpJh5vQP0h"
+data-outputId="4539916b-d56b-469f-a487-a8c3a561904f">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>job_df <span class="op">=</span> rawDF.groupby(<span class="st">&#39;Job&#39;</span>).<span class="bu">max</span>().select([<span class="st">&#39;Job&#39;</span>, <span class="st">&#39;max(Total Compensation)&#39;</span>]).orderBy(desc(<span class="st">&quot;max(Total Compensation)&quot;</span>))</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>job_df.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>+--------------------+-----------------------+
+|                 Job|max(Total Compensation)|
++--------------------+-----------------------+
+|Chief Investment ...|              653498.15|
+|      Deputy Chief 3|              510574.44|
+|   Asst Med Examiner|               497505.0|
+|     Chief Of Police|              466798.21|
+|         Dept Head V|              433302.72|
+|Chief, Fire Depar...|              426006.85|
+|Battlion Chief, F...|              425605.01|
+|Adm, SFGH Medical...|              422799.94|
+|Executive Contrac...|              422019.78|
+|Senior Physician ...|              418013.58|
+|Gen Mgr, Public T...|              410459.56|
+|Asst Chf Of Dept ...|              406063.04|
+|Dep Dir For Inves...|              403743.76|
+|      Deputy Sheriff|              402204.51|
+|Administrator, De...|              395626.45|
+|Supervising Physi...|              390385.45|
+|               Mayor|              382624.61|
+|Lieutenant, Fire ...|              376938.29|
+|Dep Chf Of Dept (...|              376513.82|
+|         Commander 3|              373599.91|
++--------------------+-----------------------+
+only showing top 20 rows
+
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:492}"
+id="_vzIa6nj9shK" data-outputId="d5abc0eb-5143-4277-fe95-b5f492ad79c4">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> plt.figure(figsize <span class="op">=</span>(<span class="dv">25</span>, <span class="dv">10</span>))</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a><span class="co">#job_df = job_df.toPandas().head(10)</span></span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a><span class="co">#job_df = df.groupby(&#39;Job&#39;).max().select([&#39;Job&#39;, &#39;max(Total Compensation)&#39;]).orderBy(desc(&quot;max(Total Compensation)&quot;))</span></span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>jobDF <span class="op">=</span> rawDF[[<span class="st">&#39;Job&#39;</span>,<span class="st">&#39;Total Compensation&#39;</span>]].groupby(<span class="st">&#39;Job&#39;</span>).<span class="bu">max</span>(<span class="st">&#39;Total Compensation&#39;</span>).sort(desc(<span class="st">&quot;max(Total Compensation)&quot;</span>)).toPandas().head(<span class="dv">10</span>)</span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>plt.bar(jobDF[<span class="st">&quot;Job&quot;</span>], jobDF[<span class="st">&quot;max(Total Compensation)&quot;</span>])</span></code></pre></div>
+<div class="output execute_result" data-execution_count="25">
+<pre><code>&lt;BarContainer object of 10 artists&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_b1a939fdab0940e98a56b1c13afeaba7/20a77d09c2fd5db5f47a11eacb42b8c88376f9be.png" /></p>
+</div>
+</div>
+<section
+id="53-check-correlation-of-target-variable-with-other-independent-variables-plot-heatmap"
+class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;1ffac626-b0f9-45f4-b780-c1c06edf6dd1&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+id="txsSQSvNQP0h">
+<h4>5.3. Check Correlation of Target Variable with Other Independent
+Variables. Plot Heatmap</h4>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-collapsed="true" id="NFo9Q21lQP0h"
+data-outputId="1c6479d6-a492-41aa-a6a6-0baa9ad0f127">
+<div class="sourceCode" id="cb39"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Finding numerical columns/features for corelation analysis and to plot HeatMap</span></span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>numeric_features <span class="op">=</span> [t[<span class="dv">0</span>] <span class="cf">for</span> t <span class="kw">in</span> refinedDF.dtypes <span class="cf">if</span> t[<span class="dv">1</span>] <span class="op">!=</span><span class="st">&#39;string&#39;</span>]</span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a>numeric_features_df <span class="op">=</span> rawDF.select(numeric_features)</span>
+<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a><span class="co">#numeric_features_df.toPandas()</span></span>
+<span id="cb39-6"><a href="#cb39-6" aria-hidden="true" tabindex="-1"></a>numeric_features_df.show()</span>
+<span id="cb39-7"><a href="#cb39-7" aria-hidden="true" tabindex="-1"></a><span class="bu">len</span>(numeric_features_df.columns)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>+-----------------------+----------+---------+--------+--------------+----------+-------------+--------------+--------------+------------------+
+|Organization Group Code|Union Code| Salaries|Overtime|Other Salaries|Retirement|Health/Dental|Other Benefits|Total Benefits|Total Compensation|
++-----------------------+----------+---------+--------+--------------+----------+-------------+--------------+--------------+------------------+
+|                      1|       311|114473.16|     0.0|        1500.0|  21025.98|      13068.8|       9368.71|      43463.49|         159436.65|
+|                      5|       790| 84077.11|     0.0|           0.0|   16587.3|     12457.73|       6931.91|      35976.94|         120054.05|
+|                      4|       535|  9980.17|     0.0|        798.43|       0.0|      2254.93|        835.11|       3090.04|          13868.64|
+|                      4|       250|  2873.41|     0.0|           0.0|       0.0|       622.63|        222.46|        845.09|            3718.5|
+|                      5|       790|  6701.85|     0.0|         176.7|       0.0|      2711.66|        538.43|       3250.09|          10128.64|
+|                      2|        21| 45321.18|     0.0|           0.0|   9386.03|      11780.6|       3486.34|      24652.97|          69974.15|
+|                      5|       790|  28305.5|     0.0|       1193.14|   6616.52|      5793.48|       2430.74|      14840.74|          44339.38|
+|                      6|        21| 39938.09|     0.0|         800.0|   8685.34|      7269.02|       3277.52|      19231.88|          59969.97|
+|                      1|       911|  23112.0| 2312.73|      20944.16|   4183.12|      1911.46|         68.84|       6163.42|          52532.31|
+|                      1|       498| 89101.22| 6856.77|       5563.78|  17596.33|     12512.55|       1627.91|      31736.79|         133258.56|
+|                      2|       790|  7091.33|     0.0|           0.0|       0.0|      2361.82|        549.01|       2910.83|          10002.16|
+|                      2|        21| 57467.12|  355.65|           0.0|  11901.38|     11933.98|       4691.34|       28526.7|          86349.47|
+|                      5|       261|  80357.0| 5612.97|           7.9|  16562.14|      12424.5|       7091.69|      36078.33|          122056.2|
+|                      2|       253| 64170.89|13128.97|       2677.81|  17109.68|     13379.17|       6204.01|      36692.86|         116670.53|
+|                      3|        22| 83038.01|     0.0|         200.0|  15490.62|      13068.8|       6525.06|      35084.48|         118322.49|
+|                      6|        16| 92530.82|     0.0|      13412.58|  20224.21|     13054.94|       8450.17|      41729.32|         147672.72|
+|                      2|       253| 44381.77|11166.58|       2694.49|   13602.2|       8826.1|        4423.7|       26852.0|          85094.84|
+|                      2|       790|  78639.3|20332.03|       7821.87|  17683.84|     12512.54|       8707.07|      38903.45|         145696.65|
+|                      1|       311|176267.41|     0.0|        1250.0|  36959.07|     12512.55|      10479.18|       59950.8|         237468.21|
+|                      2|        38|100655.41| 8240.09|      16911.85|  24354.06|     12500.56|       9962.73|      46817.35|          172624.7|
++-----------------------+----------+---------+--------+--------------+----------+-------------+--------------+--------------+------------------+
+only showing top 20 rows
+
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="26">
+<pre><code>10</code></pre>
+</div>
+</div>
+<div class="cell code" id="IF1z3V6P-ZNu">
+<div class="sourceCode" id="cb42"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a>col_names <span class="op">=</span> numeric_features_df.columns</span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a>features <span class="op">=</span> numeric_features_df.rdd.<span class="bu">map</span>(<span class="kw">lambda</span> row: row[<span class="dv">0</span>:])</span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:441}"
+id="N53u5orC-j9e" data-outputId="9b93b9bd-90b6-4356-dac6-5853ff8f09cf">
+<div class="sourceCode" id="cb43"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.mllib.stat <span class="im">import</span> Statistics</span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a>corr_mat <span class="op">=</span> Statistics.corr(features, method<span class="op">=</span><span class="st">&quot;pearson&quot;</span>)</span>
+<span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a>corr_df <span class="op">=</span> pd.DataFrame(corr_mat)</span>
+<span id="cb43-6"><a href="#cb43-6" aria-hidden="true" tabindex="-1"></a>corr_df.index <span class="op">=</span> col_names</span>
+<span id="cb43-7"><a href="#cb43-7" aria-hidden="true" tabindex="-1"></a>corr_df.columns <span class="op">=</span> col_names</span>
+<span id="cb43-8"><a href="#cb43-8" aria-hidden="true" tabindex="-1"></a><span class="bu">round</span>(corr_df, <span class="dv">2</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="28">
+
+  <div id="df-21a96c6a-8715-4511-9769-4e6d9b34da8f">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Organization Group Code</th>
+      <th>Union Code</th>
+      <th>Salaries</th>
+      <th>Overtime</th>
+      <th>Other Salaries</th>
+      <th>Retirement</th>
+      <th>Health/Dental</th>
+      <th>Other Benefits</th>
+      <th>Total Benefits</th>
+      <th>Total Compensation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Organization Group Code</th>
+      <td>1.00</td>
+      <td>NaN</td>
+      <td>-0.22</td>
+      <td>-0.30</td>
+      <td>-0.23</td>
+      <td>-0.25</td>
+      <td>-0.23</td>
+      <td>0.03</td>
+      <td>-0.21</td>
+      <td>-0.27</td>
+    </tr>
+    <tr>
+      <th>Union Code</th>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>Salaries</th>
+      <td>-0.22</td>
+      <td>NaN</td>
+      <td>1.00</td>
+      <td>0.27</td>
+      <td>0.32</td>
+      <td>0.95</td>
+      <td>0.77</td>
+      <td>0.70</td>
+      <td>0.94</td>
+      <td>0.97</td>
+    </tr>
+    <tr>
+      <th>Overtime</th>
+      <td>-0.30</td>
+      <td>NaN</td>
+      <td>0.27</td>
+      <td>1.00</td>
+      <td>0.35</td>
+      <td>0.31</td>
+      <td>0.31</td>
+      <td>0.06</td>
+      <td>0.29</td>
+      <td>0.45</td>
+    </tr>
+    <tr>
+      <th>Other Salaries</th>
+      <td>-0.23</td>
+      <td>NaN</td>
+      <td>0.32</td>
+      <td>0.35</td>
+      <td>1.00</td>
+      <td>0.34</td>
+      <td>0.21</td>
+      <td>0.04</td>
+      <td>0.27</td>
+      <td>0.45</td>
+    </tr>
+    <tr>
+      <th>Retirement</th>
+      <td>-0.25</td>
+      <td>NaN</td>
+      <td>0.95</td>
+      <td>0.31</td>
+      <td>0.34</td>
+      <td>1.00</td>
+      <td>0.79</td>
+      <td>0.67</td>
+      <td>0.97</td>
+      <td>0.96</td>
+    </tr>
+    <tr>
+      <th>Health/Dental</th>
+      <td>-0.23</td>
+      <td>NaN</td>
+      <td>0.77</td>
+      <td>0.31</td>
+      <td>0.21</td>
+      <td>0.79</td>
+      <td>1.00</td>
+      <td>0.60</td>
+      <td>0.89</td>
+      <td>0.81</td>
+    </tr>
+    <tr>
+      <th>Other Benefits</th>
+      <td>0.03</td>
+      <td>NaN</td>
+      <td>0.70</td>
+      <td>0.06</td>
+      <td>0.04</td>
+      <td>0.67</td>
+      <td>0.60</td>
+      <td>1.00</td>
+      <td>0.79</td>
+      <td>0.67</td>
+    </tr>
+    <tr>
+      <th>Total Benefits</th>
+      <td>-0.21</td>
+      <td>NaN</td>
+      <td>0.94</td>
+      <td>0.29</td>
+      <td>0.27</td>
+      <td>0.97</td>
+      <td>0.89</td>
+      <td>0.79</td>
+      <td>1.00</td>
+      <td>0.94</td>
+    </tr>
+    <tr>
+      <th>Total Compensation</th>
+      <td>-0.27</td>
+      <td>NaN</td>
+      <td>0.97</td>
+      <td>0.45</td>
+      <td>0.45</td>
+      <td>0.96</td>
+      <td>0.81</td>
+      <td>0.67</td>
+      <td>0.94</td>
+      <td>1.00</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-21a96c6a-8715-4511-9769-4e6d9b34da8f')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-21a96c6a-8715-4511-9769-4e6d9b34da8f button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-21a96c6a-8715-4511-9769-4e6d9b34da8f');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:402}"
+id="3MnEyNIa_dJR" data-outputId="93a068da-0230-4d47-cc0d-729aa6abc788">
+<div class="sourceCode" id="cb44"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a>sns.heatmap(corr_df)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="29">
+<pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7f3b8020e6a0&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_b1a939fdab0940e98a56b1c13afeaba7/ce5412dbd3353849386ec1f365ad21f0fa37fb09.png" /></p>
+</div>
+</div>
+<section
+id="6-categorise-the-attributes-into-its-type-use-one-hot-encoding-wherever-required"
+class="cell markdown" id="6p5egOcB-VnG">
+<h3>6 Categorise the attributes into its type (Use one hot encoding
+wherever required)</h3>
+</section>
+<div class="cell code" id="6IiP2SYo-tKH">
+<div class="sourceCode" id="cb46"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>catcols <span class="op">=</span> []</span>
+<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a>numcols <span class="op">=</span> []</span>
+<span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a>targetcol <span class="op">=</span> [<span class="st">&#39;Total Compensation&#39;</span>]</span>
+<span id="cb46-4"><a href="#cb46-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-5"><a href="#cb46-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col_name <span class="kw">in</span> refinedDF.dtypes:</span>
+<span id="cb46-6"><a href="#cb46-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (col_name[<span class="dv">0</span>] <span class="kw">not</span> <span class="kw">in</span> targetcol):</span>
+<span id="cb46-7"><a href="#cb46-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> col_name[<span class="dv">1</span>] <span class="op">==</span> <span class="st">&#39;string&#39;</span>:</span>
+<span id="cb46-8"><a href="#cb46-8" aria-hidden="true" tabindex="-1"></a>            catcols.append(col_name[<span class="dv">0</span>])</span>
+<span id="cb46-9"><a href="#cb46-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb46-10"><a href="#cb46-10" aria-hidden="true" tabindex="-1"></a>            numcols.append(col_name[<span class="dv">0</span>])</span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-collapsed="true" id="O5SYln1OQP0i"
+data-outputId="672c04cf-fc99-4e7b-d30e-2357ae8ead83">
+<div class="sourceCode" id="cb47"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span>(<span class="bu">len</span>(refinedDF.columns) <span class="op">==</span> <span class="bu">len</span>(targetcol) <span class="op">+</span> <span class="bu">len</span>(numcols) <span class="op">+</span> <span class="bu">len</span>(catcols)):</span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;The number of variables is equal to each other.&quot;</span>)</span>
+<span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>: <span class="bu">print</span>(<span class="st">&quot;There is a problem with variable grouping!&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The number of variables is equal to each other.
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="wiWvU2l9CZzq" data-outputId="cb677ae2-d0be-42c5-e55f-0242c6b5d020">
+<div class="sourceCode" id="cb49"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> cat_col <span class="kw">in</span> catcols:</span>
+<span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(cat_col)</span>
+<span id="cb49-3"><a href="#cb49-3" aria-hidden="true" tabindex="-1"></a>    refinedDF.groupBy(cat_col).count().orderBy(F.desc(<span class="st">&quot;count&quot;</span>)).show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Year Type
++---------+------+
+|Year Type| count|
++---------+------+
+|   Fiscal|166687|
+| Calendar|123661|
++---------+------+
+
+Department Code
++---------------+-----+
+|Department Code|count|
++---------------+-----+
+|            DPH|62640|
+|            MTA|42475|
+|            DSS|23993|
+|            POL|22953|
+|            REC|16220|
+|            AIR|13665|
+|            FIR|11742|
+|            DPW|11083|
+|            SHF| 7551|
+|            ADM| 7354|
+|            PUC| 6806|
+|            LIB| 6658|
+|            WTR| 5902|
+|            CWP| 4210|
+|            CRT| 3994|
+|            HHP| 2977|
+|            JUV| 2388|
+|            CAT| 2368|
+|            DBI| 2278|
+|            DAT| 2163|
++---------------+-----+
+only showing top 20 rows
+
+Job Code
++--------+-----+
+|Job Code|count|
++--------+-----+
+|    9163|17964|
+|    P103| 9856|
+|    2320| 8925|
+|    9916| 6416|
+|    Q004| 5810|
+|    H002| 5772|
+|    2708| 5728|
+|    9910| 5028|
+|    3279| 4988|
+|    Q002| 4862|
+|    2303| 4480|
+|    8304| 4336|
+|    Q003| 3149|
+|    2905| 3000|
+|    Q052| 2709|
+|    8177| 2709|
+|    2736| 2622|
+|    7514| 2546|
+|    1406| 2368|
+|    H003| 2356|
++--------+-----+
+only showing top 20 rows
+
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="-EoohvYJCw06" data-outputId="39838c61-5248-46b6-b79e-44673d64a7a1">
+<div class="sourceCode" id="cb51"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="co"># String indexing the categorical columns</span></span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.ml.feature <span class="im">import</span> StringIndexer, OneHotEncoder</span>
+<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-5"><a href="#cb51-5" aria-hidden="true" tabindex="-1"></a><span class="co">#String_indexers = StringIndexer(inputCols= catcols, </span></span>
+<span id="cb51-6"><a href="#cb51-6" aria-hidden="true" tabindex="-1"></a><span class="co">#                         outputCols=[&#39;YearType_strindexed&#39;,&#39;DepartmentCode_strindexed&#39;,&#39;JobCode_strindexed&#39;])</span></span>
+<span id="cb51-7"><a href="#cb51-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-8"><a href="#cb51-8" aria-hidden="true" tabindex="-1"></a>String_indexers <span class="op">=</span> StringIndexer(inputCols<span class="op">=</span> catcols, </span>
+<span id="cb51-9"><a href="#cb51-9" aria-hidden="true" tabindex="-1"></a>                        outputCols<span class="op">=</span>[x<span class="op">+</span><span class="st">&quot;_strIndexed&quot;</span> <span class="cf">for</span> x <span class="kw">in</span> catcols])</span>
+<span id="cb51-10"><a href="#cb51-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-11"><a href="#cb51-11" aria-hidden="true" tabindex="-1"></a>stringindexedDF <span class="op">=</span> String_indexers.fit(refinedDF).transform(refinedDF)</span>
+<span id="cb51-12"><a href="#cb51-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-13"><a href="#cb51-13" aria-hidden="true" tabindex="-1"></a>stringindexedDF.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>+---------+-----------------------+---------------+----------+--------+---------+--------+--------------+----------+-------------+--------------+--------------+------------------+--------------------+--------------------------+-------------------+
+|Year Type|Organization Group Code|Department Code|Union Code|Job Code| Salaries|Overtime|Other Salaries|Retirement|Health/Dental|Other Benefits|Total Benefits|Total Compensation|Year Type_strIndexed|Department Code_strIndexed|Job Code_strIndexed|
++---------+-----------------------+---------------+----------+--------+---------+--------+--------------+----------+-------------+--------------+--------------+------------------+--------------------+--------------------------+-------------------+
+|   Fiscal|                    1.0|            DAT|     311.0|    8177|114473.16|     0.0|        1500.0|  21025.98|      13068.8|       9368.71|      43463.49|         159436.65|                 0.0|                      19.0|               14.0|
+| Calendar|                    5.0|            ART|     790.0|    1844| 84077.11|     0.0|           0.0|   16587.3|     12457.73|       6931.91|      35976.94|         120054.05|                 1.0|                      43.0|              135.0|
+| Calendar|                    4.0|            DPH|     535.0|    2903|  9980.17|     0.0|        798.43|       0.0|      2254.93|        835.11|       3090.04|          13868.64|                 1.0|                       0.0|               20.0|
+|   Fiscal|                    4.0|            DPH|     250.0|    2202|  2873.41|     0.0|           0.0|       0.0|       622.63|        222.46|        845.09|            3718.5|                 0.0|                       0.0|              333.0|
+|   Fiscal|                    5.0|            REC|     790.0|    3279|  6701.85|     0.0|         176.7|       0.0|      2711.66|        538.43|       3250.09|          10128.64|                 0.0|                       4.0|                8.0|
+|   Fiscal|                    2.0|            DPW|      21.0|    5380| 45321.18|     0.0|           0.0|   9386.03|      11780.6|       3486.34|      24652.97|          69974.15|                 0.0|                       7.0|               38.0|
+|   Fiscal|                    5.0|            LIB|     790.0|    3610|  28305.5|     0.0|       1193.14|   6616.52|      5793.48|       2430.74|      14840.74|          44339.38|                 0.0|                      11.0|               83.0|
+|   Fiscal|                    6.0|            ASR|      21.0|    4261| 39938.09|     0.0|         800.0|   8685.34|      7269.02|       3277.52|      19231.88|          59969.97|                 0.0|                      29.0|              208.0|
+| Calendar|                    1.0|            POL|     911.0|    Q060|  23112.0| 2312.73|      20944.16|   4183.12|      1911.46|         68.84|       6163.42|          52532.31|                 1.0|                       3.0|              413.0|
+|   Fiscal|                    1.0|            SHF|     498.0|    8304| 89101.22| 6856.77|       5563.78|  17596.33|     12512.55|       1627.91|      31736.79|         133258.56|                 0.0|                       8.0|               11.0|
+|   Fiscal|                    2.0|            AIR|     790.0|    9920|  7091.33|     0.0|           0.0|       0.0|      2361.82|        549.01|       2910.83|          10002.16|                 0.0|                       5.0|               34.0|
+|   Fiscal|                    2.0|            DPW|      21.0|    6230| 57467.12|  355.65|           0.0|  11901.38|     11933.98|       4691.34|       28526.7|          86349.47|                 0.0|                       7.0|              292.0|
+| Calendar|                    5.0|            REC|     261.0|    3422|  80357.0| 5612.97|           7.9|  16562.14|      12424.5|       7091.69|      36078.33|          122056.2|                 1.0|                       4.0|              205.0|
+|   Fiscal|                    2.0|            MTA|     253.0|    9163| 64170.89|13128.97|       2677.81|  17109.68|     13379.17|       6204.01|      36692.86|         116670.53|                 0.0|                       1.0|                0.0|
+|   Fiscal|                    3.0|            DSS|      22.0|    1241| 83038.01|     0.0|         200.0|  15490.62|      13068.8|       6525.06|      35084.48|         118322.49|                 0.0|                       2.0|               76.0|
+| Calendar|                    6.0|            ADM|      16.0|    1777| 92530.82|     0.0|      13412.58|  20224.21|     13054.94|       8450.17|      41729.32|         147672.72|                 1.0|                       9.0|              649.0|
+| Calendar|                    2.0|            MTA|     253.0|    9163| 44381.77|11166.58|       2694.49|   13602.2|       8826.1|        4423.7|       26852.0|          85094.84|                 1.0|                       1.0|                0.0|
+|   Fiscal|                    2.0|            MTA|     790.0|    9131|  78639.3|20332.03|       7821.87|  17683.84|     12512.54|       8707.07|      38903.45|         145696.65|                 0.0|                       1.0|              146.0|
+|   Fiscal|                    1.0|            DAT|     311.0|    8177|176267.41|     0.0|        1250.0|  36959.07|     12512.55|      10479.18|       59950.8|         237468.21|                 0.0|                      19.0|               14.0|
+|   Fiscal|                    2.0|            WTR|      38.0|    7316|100655.41| 8240.09|      16911.85|  24354.06|     12500.56|       9962.73|      46817.35|          172624.7|                 0.0|                      12.0|              249.0|
++---------+-----------------------+---------------+----------+--------+---------+--------+--------------+----------+-------------+--------------+--------------+------------------+--------------------+--------------------------+-------------------+
+only showing top 20 rows
+
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="rknlhfY_C0F4" data-outputId="e9f6dda4-a902-482b-f09e-33f2a8797a9e">
+<div class="sourceCode" id="cb53"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Drop unnecessary columns</span></span>
+<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb53-3"><a href="#cb53-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> x <span class="kw">in</span> catcols:</span>
+<span id="cb53-4"><a href="#cb53-4" aria-hidden="true" tabindex="-1"></a>    stringindexedDF <span class="op">=</span> stringindexedDF.drop(x)</span>
+<span id="cb53-5"><a href="#cb53-5" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb53-6"><a href="#cb53-6" aria-hidden="true" tabindex="-1"></a>stringindexedDF.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>+-----------------------+----------+---------+--------+--------------+----------+-------------+--------------+--------------+------------------+--------------------+--------------------------+-------------------+
+|Organization Group Code|Union Code| Salaries|Overtime|Other Salaries|Retirement|Health/Dental|Other Benefits|Total Benefits|Total Compensation|Year Type_strIndexed|Department Code_strIndexed|Job Code_strIndexed|
++-----------------------+----------+---------+--------+--------------+----------+-------------+--------------+--------------+------------------+--------------------+--------------------------+-------------------+
+|                    1.0|     311.0|114473.16|     0.0|        1500.0|  21025.98|      13068.8|       9368.71|      43463.49|         159436.65|                 0.0|                      19.0|               14.0|
+|                    5.0|     790.0| 84077.11|     0.0|           0.0|   16587.3|     12457.73|       6931.91|      35976.94|         120054.05|                 1.0|                      43.0|              135.0|
+|                    4.0|     535.0|  9980.17|     0.0|        798.43|       0.0|      2254.93|        835.11|       3090.04|          13868.64|                 1.0|                       0.0|               20.0|
+|                    4.0|     250.0|  2873.41|     0.0|           0.0|       0.0|       622.63|        222.46|        845.09|            3718.5|                 0.0|                       0.0|              333.0|
+|                    5.0|     790.0|  6701.85|     0.0|         176.7|       0.0|      2711.66|        538.43|       3250.09|          10128.64|                 0.0|                       4.0|                8.0|
+|                    2.0|      21.0| 45321.18|     0.0|           0.0|   9386.03|      11780.6|       3486.34|      24652.97|          69974.15|                 0.0|                       7.0|               38.0|
+|                    5.0|     790.0|  28305.5|     0.0|       1193.14|   6616.52|      5793.48|       2430.74|      14840.74|          44339.38|                 0.0|                      11.0|               83.0|
+|                    6.0|      21.0| 39938.09|     0.0|         800.0|   8685.34|      7269.02|       3277.52|      19231.88|          59969.97|                 0.0|                      29.0|              208.0|
+|                    1.0|     911.0|  23112.0| 2312.73|      20944.16|   4183.12|      1911.46|         68.84|       6163.42|          52532.31|                 1.0|                       3.0|              413.0|
+|                    1.0|     498.0| 89101.22| 6856.77|       5563.78|  17596.33|     12512.55|       1627.91|      31736.79|         133258.56|                 0.0|                       8.0|               11.0|
+|                    2.0|     790.0|  7091.33|     0.0|           0.0|       0.0|      2361.82|        549.01|       2910.83|          10002.16|                 0.0|                       5.0|               34.0|
+|                    2.0|      21.0| 57467.12|  355.65|           0.0|  11901.38|     11933.98|       4691.34|       28526.7|          86349.47|                 0.0|                       7.0|              292.0|
+|                    5.0|     261.0|  80357.0| 5612.97|           7.9|  16562.14|      12424.5|       7091.69|      36078.33|          122056.2|                 1.0|                       4.0|              205.0|
+|                    2.0|     253.0| 64170.89|13128.97|       2677.81|  17109.68|     13379.17|       6204.01|      36692.86|         116670.53|                 0.0|                       1.0|                0.0|
+|                    3.0|      22.0| 83038.01|     0.0|         200.0|  15490.62|      13068.8|       6525.06|      35084.48|         118322.49|                 0.0|                       2.0|               76.0|
+|                    6.0|      16.0| 92530.82|     0.0|      13412.58|  20224.21|     13054.94|       8450.17|      41729.32|         147672.72|                 1.0|                       9.0|              649.0|
+|                    2.0|     253.0| 44381.77|11166.58|       2694.49|   13602.2|       8826.1|        4423.7|       26852.0|          85094.84|                 1.0|                       1.0|                0.0|
+|                    2.0|     790.0|  78639.3|20332.03|       7821.87|  17683.84|     12512.54|       8707.07|      38903.45|         145696.65|                 0.0|                       1.0|              146.0|
+|                    1.0|     311.0|176267.41|     0.0|        1250.0|  36959.07|     12512.55|      10479.18|       59950.8|         237468.21|                 0.0|                      19.0|               14.0|
+|                    2.0|      38.0|100655.41| 8240.09|      16911.85|  24354.06|     12500.56|       9962.73|      46817.35|          172624.7|                 0.0|                      12.0|              249.0|
++-----------------------+----------+---------+--------+--------------+----------+-------------+--------------+--------------+------------------+--------------------+--------------------------+-------------------+
+only showing top 20 rows
+
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="6EbXxtwmDI_Y" data-outputId="e0918a63-acb0-4c66-f2ca-759e4b2afcff">
+<div class="sourceCode" id="cb55"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a>encoder <span class="op">=</span> OneHotEncoder(inputCols<span class="op">=</span> [x<span class="op">+</span><span class="st">&quot;_strIndexed&quot;</span> <span class="cf">for</span> x <span class="kw">in</span> catcols], </span>
+<span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a>                         outputCols<span class="op">=</span>[x<span class="op">+</span><span class="st">&quot;_OHEncoded&quot;</span> <span class="cf">for</span> x <span class="kw">in</span> catcols])</span>
+<span id="cb55-3"><a href="#cb55-3" aria-hidden="true" tabindex="-1"></a>encodedDF <span class="op">=</span> encoder.fit(stringindexedDF).transform(stringindexedDF)</span>
+<span id="cb55-4"><a href="#cb55-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb55-5"><a href="#cb55-5" aria-hidden="true" tabindex="-1"></a>encodedDF.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>+-----------------------+----------+---------+--------+--------------+----------+-------------+--------------+--------------+------------------+--------------------+--------------------------+-------------------+-------------------+-------------------------+------------------+
+|Organization Group Code|Union Code| Salaries|Overtime|Other Salaries|Retirement|Health/Dental|Other Benefits|Total Benefits|Total Compensation|Year Type_strIndexed|Department Code_strIndexed|Job Code_strIndexed|Year Type_OHEncoded|Department Code_OHEncoded|Job Code_OHEncoded|
++-----------------------+----------+---------+--------+--------------+----------+-------------+--------------+--------------+------------------+--------------------+--------------------------+-------------------+-------------------+-------------------------+------------------+
+|                    1.0|     311.0|114473.16|     0.0|        1500.0|  21025.98|      13068.8|       9368.71|      43463.49|         159436.65|                 0.0|                      19.0|               14.0|      (1,[0],[1.0])|          (53,[19],[1.0])| (1129,[14],[1.0])|
+|                    5.0|     790.0| 84077.11|     0.0|           0.0|   16587.3|     12457.73|       6931.91|      35976.94|         120054.05|                 1.0|                      43.0|              135.0|          (1,[],[])|          (53,[43],[1.0])|(1129,[135],[1.0])|
+|                    4.0|     535.0|  9980.17|     0.0|        798.43|       0.0|      2254.93|        835.11|       3090.04|          13868.64|                 1.0|                       0.0|               20.0|          (1,[],[])|           (53,[0],[1.0])| (1129,[20],[1.0])|
+|                    4.0|     250.0|  2873.41|     0.0|           0.0|       0.0|       622.63|        222.46|        845.09|            3718.5|                 0.0|                       0.0|              333.0|      (1,[0],[1.0])|           (53,[0],[1.0])|(1129,[333],[1.0])|
+|                    5.0|     790.0|  6701.85|     0.0|         176.7|       0.0|      2711.66|        538.43|       3250.09|          10128.64|                 0.0|                       4.0|                8.0|      (1,[0],[1.0])|           (53,[4],[1.0])|  (1129,[8],[1.0])|
+|                    2.0|      21.0| 45321.18|     0.0|           0.0|   9386.03|      11780.6|       3486.34|      24652.97|          69974.15|                 0.0|                       7.0|               38.0|      (1,[0],[1.0])|           (53,[7],[1.0])| (1129,[38],[1.0])|
+|                    5.0|     790.0|  28305.5|     0.0|       1193.14|   6616.52|      5793.48|       2430.74|      14840.74|          44339.38|                 0.0|                      11.0|               83.0|      (1,[0],[1.0])|          (53,[11],[1.0])| (1129,[83],[1.0])|
+|                    6.0|      21.0| 39938.09|     0.0|         800.0|   8685.34|      7269.02|       3277.52|      19231.88|          59969.97|                 0.0|                      29.0|              208.0|      (1,[0],[1.0])|          (53,[29],[1.0])|(1129,[208],[1.0])|
+|                    1.0|     911.0|  23112.0| 2312.73|      20944.16|   4183.12|      1911.46|         68.84|       6163.42|          52532.31|                 1.0|                       3.0|              413.0|          (1,[],[])|           (53,[3],[1.0])|(1129,[413],[1.0])|
+|                    1.0|     498.0| 89101.22| 6856.77|       5563.78|  17596.33|     12512.55|       1627.91|      31736.79|         133258.56|                 0.0|                       8.0|               11.0|      (1,[0],[1.0])|           (53,[8],[1.0])| (1129,[11],[1.0])|
+|                    2.0|     790.0|  7091.33|     0.0|           0.0|       0.0|      2361.82|        549.01|       2910.83|          10002.16|                 0.0|                       5.0|               34.0|      (1,[0],[1.0])|           (53,[5],[1.0])| (1129,[34],[1.0])|
+|                    2.0|      21.0| 57467.12|  355.65|           0.0|  11901.38|     11933.98|       4691.34|       28526.7|          86349.47|                 0.0|                       7.0|              292.0|      (1,[0],[1.0])|           (53,[7],[1.0])|(1129,[292],[1.0])|
+|                    5.0|     261.0|  80357.0| 5612.97|           7.9|  16562.14|      12424.5|       7091.69|      36078.33|          122056.2|                 1.0|                       4.0|              205.0|          (1,[],[])|           (53,[4],[1.0])|(1129,[205],[1.0])|
+|                    2.0|     253.0| 64170.89|13128.97|       2677.81|  17109.68|     13379.17|       6204.01|      36692.86|         116670.53|                 0.0|                       1.0|                0.0|      (1,[0],[1.0])|           (53,[1],[1.0])|  (1129,[0],[1.0])|
+|                    3.0|      22.0| 83038.01|     0.0|         200.0|  15490.62|      13068.8|       6525.06|      35084.48|         118322.49|                 0.0|                       2.0|               76.0|      (1,[0],[1.0])|           (53,[2],[1.0])| (1129,[76],[1.0])|
+|                    6.0|      16.0| 92530.82|     0.0|      13412.58|  20224.21|     13054.94|       8450.17|      41729.32|         147672.72|                 1.0|                       9.0|              649.0|          (1,[],[])|           (53,[9],[1.0])|(1129,[649],[1.0])|
+|                    2.0|     253.0| 44381.77|11166.58|       2694.49|   13602.2|       8826.1|        4423.7|       26852.0|          85094.84|                 1.0|                       1.0|                0.0|          (1,[],[])|           (53,[1],[1.0])|  (1129,[0],[1.0])|
+|                    2.0|     790.0|  78639.3|20332.03|       7821.87|  17683.84|     12512.54|       8707.07|      38903.45|         145696.65|                 0.0|                       1.0|              146.0|      (1,[0],[1.0])|           (53,[1],[1.0])|(1129,[146],[1.0])|
+|                    1.0|     311.0|176267.41|     0.0|        1250.0|  36959.07|     12512.55|      10479.18|       59950.8|         237468.21|                 0.0|                      19.0|               14.0|      (1,[0],[1.0])|          (53,[19],[1.0])| (1129,[14],[1.0])|
+|                    2.0|      38.0|100655.41| 8240.09|      16911.85|  24354.06|     12500.56|       9962.73|      46817.35|          172624.7|                 0.0|                      12.0|              249.0|      (1,[0],[1.0])|          (53,[12],[1.0])|(1129,[249],[1.0])|
++-----------------------+----------+---------+--------+--------------+----------+-------------+--------------+--------------+------------------+--------------------+--------------------------+-------------------+-------------------+-------------------------+------------------+
+only showing top 20 rows
+
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="94rvlZulDURw" data-outputId="6f2c4bfe-045f-4fb1-fccd-11f5fa2cb067">
+<div class="sourceCode" id="cb57"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Drop unnecessary columns</span></span>
+<span id="cb57-2"><a href="#cb57-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb57-3"><a href="#cb57-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> x <span class="kw">in</span> catcols:</span>
+<span id="cb57-4"><a href="#cb57-4" aria-hidden="true" tabindex="-1"></a>    encodedDF <span class="op">=</span> encodedDF.drop(x<span class="op">+</span><span class="st">&quot;_strIndexed&quot;</span>)</span>
+<span id="cb57-5"><a href="#cb57-5" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb57-6"><a href="#cb57-6" aria-hidden="true" tabindex="-1"></a>encodedDF.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>+-----------------------+----------+---------+--------+--------------+----------+-------------+--------------+--------------+------------------+-------------------+-------------------------+------------------+
+|Organization Group Code|Union Code| Salaries|Overtime|Other Salaries|Retirement|Health/Dental|Other Benefits|Total Benefits|Total Compensation|Year Type_OHEncoded|Department Code_OHEncoded|Job Code_OHEncoded|
++-----------------------+----------+---------+--------+--------------+----------+-------------+--------------+--------------+------------------+-------------------+-------------------------+------------------+
+|                    1.0|     311.0|114473.16|     0.0|        1500.0|  21025.98|      13068.8|       9368.71|      43463.49|         159436.65|      (1,[0],[1.0])|          (53,[19],[1.0])| (1129,[14],[1.0])|
+|                    5.0|     790.0| 84077.11|     0.0|           0.0|   16587.3|     12457.73|       6931.91|      35976.94|         120054.05|          (1,[],[])|          (53,[43],[1.0])|(1129,[135],[1.0])|
+|                    4.0|     535.0|  9980.17|     0.0|        798.43|       0.0|      2254.93|        835.11|       3090.04|          13868.64|          (1,[],[])|           (53,[0],[1.0])| (1129,[20],[1.0])|
+|                    4.0|     250.0|  2873.41|     0.0|           0.0|       0.0|       622.63|        222.46|        845.09|            3718.5|      (1,[0],[1.0])|           (53,[0],[1.0])|(1129,[333],[1.0])|
+|                    5.0|     790.0|  6701.85|     0.0|         176.7|       0.0|      2711.66|        538.43|       3250.09|          10128.64|      (1,[0],[1.0])|           (53,[4],[1.0])|  (1129,[8],[1.0])|
+|                    2.0|      21.0| 45321.18|     0.0|           0.0|   9386.03|      11780.6|       3486.34|      24652.97|          69974.15|      (1,[0],[1.0])|           (53,[7],[1.0])| (1129,[38],[1.0])|
+|                    5.0|     790.0|  28305.5|     0.0|       1193.14|   6616.52|      5793.48|       2430.74|      14840.74|          44339.38|      (1,[0],[1.0])|          (53,[11],[1.0])| (1129,[83],[1.0])|
+|                    6.0|      21.0| 39938.09|     0.0|         800.0|   8685.34|      7269.02|       3277.52|      19231.88|          59969.97|      (1,[0],[1.0])|          (53,[29],[1.0])|(1129,[208],[1.0])|
+|                    1.0|     911.0|  23112.0| 2312.73|      20944.16|   4183.12|      1911.46|         68.84|       6163.42|          52532.31|          (1,[],[])|           (53,[3],[1.0])|(1129,[413],[1.0])|
+|                    1.0|     498.0| 89101.22| 6856.77|       5563.78|  17596.33|     12512.55|       1627.91|      31736.79|         133258.56|      (1,[0],[1.0])|           (53,[8],[1.0])| (1129,[11],[1.0])|
+|                    2.0|     790.0|  7091.33|     0.0|           0.0|       0.0|      2361.82|        549.01|       2910.83|          10002.16|      (1,[0],[1.0])|           (53,[5],[1.0])| (1129,[34],[1.0])|
+|                    2.0|      21.0| 57467.12|  355.65|           0.0|  11901.38|     11933.98|       4691.34|       28526.7|          86349.47|      (1,[0],[1.0])|           (53,[7],[1.0])|(1129,[292],[1.0])|
+|                    5.0|     261.0|  80357.0| 5612.97|           7.9|  16562.14|      12424.5|       7091.69|      36078.33|          122056.2|          (1,[],[])|           (53,[4],[1.0])|(1129,[205],[1.0])|
+|                    2.0|     253.0| 64170.89|13128.97|       2677.81|  17109.68|     13379.17|       6204.01|      36692.86|         116670.53|      (1,[0],[1.0])|           (53,[1],[1.0])|  (1129,[0],[1.0])|
+|                    3.0|      22.0| 83038.01|     0.0|         200.0|  15490.62|      13068.8|       6525.06|      35084.48|         118322.49|      (1,[0],[1.0])|           (53,[2],[1.0])| (1129,[76],[1.0])|
+|                    6.0|      16.0| 92530.82|     0.0|      13412.58|  20224.21|     13054.94|       8450.17|      41729.32|         147672.72|          (1,[],[])|           (53,[9],[1.0])|(1129,[649],[1.0])|
+|                    2.0|     253.0| 44381.77|11166.58|       2694.49|   13602.2|       8826.1|        4423.7|       26852.0|          85094.84|          (1,[],[])|           (53,[1],[1.0])|  (1129,[0],[1.0])|
+|                    2.0|     790.0|  78639.3|20332.03|       7821.87|  17683.84|     12512.54|       8707.07|      38903.45|         145696.65|      (1,[0],[1.0])|           (53,[1],[1.0])|(1129,[146],[1.0])|
+|                    1.0|     311.0|176267.41|     0.0|        1250.0|  36959.07|     12512.55|      10479.18|       59950.8|         237468.21|      (1,[0],[1.0])|          (53,[19],[1.0])| (1129,[14],[1.0])|
+|                    2.0|      38.0|100655.41| 8240.09|      16911.85|  24354.06|     12500.56|       9962.73|      46817.35|          172624.7|      (1,[0],[1.0])|          (53,[12],[1.0])|(1129,[249],[1.0])|
++-----------------------+----------+---------+--------+--------------+----------+-------------+--------------+--------------+------------------+-------------------+-------------------------+------------------+
+only showing top 20 rows
+
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="8N4aooHEDexl" data-outputId="09eb19f5-feed-4f11-be75-9a12f031022f">
+<div class="sourceCode" id="cb59"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a>vectinDF <span class="op">=</span> stringindexedDF.drop(<span class="st">&#39;Total Compensation&#39;</span>)</span>
+<span id="cb59-2"><a href="#cb59-2" aria-hidden="true" tabindex="-1"></a>inp_cols<span class="op">=</span> vectinDF.columns</span>
+<span id="cb59-3"><a href="#cb59-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb59-4"><a href="#cb59-4" aria-hidden="true" tabindex="-1"></a>inp_cols</span></code></pre></div>
+<div class="output execute_result" data-execution_count="37">
+<pre><code>[&#39;Organization Group Code&#39;,
+ &#39;Union Code&#39;,
+ &#39;Salaries&#39;,
+ &#39;Overtime&#39;,
+ &#39;Other Salaries&#39;,
+ &#39;Retirement&#39;,
+ &#39;Health/Dental&#39;,
+ &#39;Other Benefits&#39;,
+ &#39;Total Benefits&#39;,
+ &#39;Year Type_strIndexed&#39;,
+ &#39;Department Code_strIndexed&#39;,
+ &#39;Job Code_strIndexed&#39;]</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="0iGx_oA3Dmw-" data-outputId="9206f02f-f7fa-4d68-f31a-163f90c0cb64">
+<div class="sourceCode" id="cb61"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb61-1"><a href="#cb61-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.ml.feature <span class="im">import</span> VectorAssembler</span>
+<span id="cb61-2"><a href="#cb61-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb61-3"><a href="#cb61-3" aria-hidden="true" tabindex="-1"></a>vectorAssembler <span class="op">=</span> VectorAssembler(inputCols <span class="op">=</span> inp_cols , outputCol <span class="op">=</span> <span class="st">&#39;features&#39;</span>)</span>
+<span id="cb61-4"><a href="#cb61-4" aria-hidden="true" tabindex="-1"></a>assembledDF <span class="op">=</span> vectorAssembler.transform(stringindexedDF)</span>
+<span id="cb61-5"><a href="#cb61-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb61-6"><a href="#cb61-6" aria-hidden="true" tabindex="-1"></a>assembledDF.select(<span class="st">&quot;features&quot;</span>).show(<span class="dv">5</span>, <span class="va">False</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>+--------------------------------------------------------------------------------+
+|features                                                                        |
++--------------------------------------------------------------------------------+
+|[1.0,311.0,114473.16,0.0,1500.0,21025.98,13068.8,9368.71,43463.49,0.0,19.0,14.0]|
+|[5.0,790.0,84077.11,0.0,0.0,16587.3,12457.73,6931.91,35976.94,1.0,43.0,135.0]   |
+|[4.0,535.0,9980.17,0.0,798.43,0.0,2254.93,835.11,3090.04,1.0,0.0,20.0]          |
+|[4.0,250.0,2873.41,0.0,0.0,0.0,622.63,222.46,845.09,0.0,0.0,333.0]              |
+|[5.0,790.0,6701.85,0.0,176.7,0.0,2711.66,538.43,3250.09,0.0,4.0,8.0]            |
++--------------------------------------------------------------------------------+
+only showing top 5 rows
+
+</code></pre>
+</div>
+</div>
+<section id="61-split-the-data-into-train-and-test-set"
+class="cell markdown" id="rrGRAFAG-YLX">
+<h3>6.1 Split the data into train and test set</h3>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="6r9ho58lDwof" data-outputId="485da383-a50f-4553-b007-893a047bb2be">
+<div class="sourceCode" id="cb63"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb63-1"><a href="#cb63-1" aria-hidden="true" tabindex="-1"></a><span class="co"># We spilt the data into 70-30 set</span></span>
+<span id="cb63-2"><a href="#cb63-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Training Set - 70% obesevations</span></span>
+<span id="cb63-3"><a href="#cb63-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Testing Set - 30% observations</span></span>
+<span id="cb63-4"><a href="#cb63-4" aria-hidden="true" tabindex="-1"></a>train,test <span class="op">=</span>  assembledDF.randomSplit([<span class="fl">0.7</span>,<span class="fl">0.3</span>], seed <span class="op">=</span> <span class="dv">2020</span>)</span>
+<span id="cb63-5"><a href="#cb63-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb63-6"><a href="#cb63-6" aria-hidden="true" tabindex="-1"></a><span class="co"># print the count of observations in each set</span></span>
+<span id="cb63-7"><a href="#cb63-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Observations in training set = &quot;</span>, train.count())</span>
+<span id="cb63-8"><a href="#cb63-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Observations in testing set = &quot;</span>, test.count())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Observations in training set =  203282
+Observations in testing set =  87066
+</code></pre>
+</div>
+</div>
+<section
+id="7-fit-linear-regression-model-on-the-data-and-check-its-performance"
+class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;114ba72f-16e5-4657-bbaf-969596890cca&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+id="XSZnLJe5QP0i">
+<h3>7. Fit Linear Regression model on the data and check its
+performance</h3>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="IB9E4tA6Emqw" data-outputId="29bc4f32-508a-4d0c-aef9-db90edc20e6f">
+<div class="sourceCode" id="cb65"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb65-1"><a href="#cb65-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.ml.regression <span class="im">import</span> LinearRegression</span>
+<span id="cb65-2"><a href="#cb65-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb65-3"><a href="#cb65-3" aria-hidden="true" tabindex="-1"></a>lnr <span class="op">=</span> LinearRegression(featuresCol <span class="op">=</span> <span class="st">&#39;features&#39;</span>, labelCol<span class="op">=</span><span class="st">&#39;Total Compensation&#39;</span>, maxIter<span class="op">=</span><span class="dv">10</span>, regParam<span class="op">=</span><span class="fl">0.3</span>, elasticNetParam<span class="op">=</span><span class="fl">0.8</span>)</span>
+<span id="cb65-4"><a href="#cb65-4" aria-hidden="true" tabindex="-1"></a>lrmodel <span class="op">=</span> lnr.fit(train)</span>
+<span id="cb65-5"><a href="#cb65-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Coefficients: &quot;</span> <span class="op">+</span> <span class="bu">str</span>(lrmodel.coefficients))</span>
+<span id="cb65-6"><a href="#cb65-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Intercept: &quot;</span> <span class="op">+</span> <span class="bu">str</span>(lrmodel.intercept))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Coefficients: [162.4857501892879,0.7014816807753479,0.8110013180645717,0.979476911691317,0.9296198751744864,1.4168017136959603,-0.01826905645996941,0.34283209417176413,0.6809396060165234,-342.5179453428342,-0.0,0.8510906251188712]
+Intercept: 228.73249512888364
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="sDJPDDUPEwXp" data-outputId="d68764e9-1d59-44b7-f32f-050b949a1799">
+<div class="sourceCode" id="cb67"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb67-1"><a href="#cb67-1" aria-hidden="true" tabindex="-1"></a>predictionDF <span class="op">=</span> lrmodel.transform(test)</span>
+<span id="cb67-2"><a href="#cb67-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb67-3"><a href="#cb67-3" aria-hidden="true" tabindex="-1"></a>predictionDF.select(<span class="st">&quot;prediction&quot;</span>,<span class="st">&quot;Total Compensation&quot;</span>,<span class="st">&quot;features&quot;</span>).show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>+------------------+------------------+--------------------+
+|        prediction|Total Compensation|            features|
++------------------+------------------+--------------------+
+|1382.8282732870248|            782.17|[1.0,1.0,330.35,0...|
+|3161.4779462046918|           1821.55|[1.0,1.0,397.0,0....|
+| 1471.831725963118|            883.79|[1.0,1.0,401.0,0....|
+|1939.6445817349238|           1277.46|[1.0,1.0,413.0,0....|
+|1241.4357355238408|            583.08|[1.0,1.0,413.0,0....|
+| 1143.568983453349|            917.51|[1.0,1.0,496.25,0...|
+|  1490.03868755891|            921.37|[1.0,1.0,496.25,0...|
+| 1442.683339798634|            806.51|[1.0,1.0,586.3,0....|
+| 1765.848425719934|           1133.41|[1.0,1.0,839.4,0....|
+| 9768.199783336158|           6043.47|[1.0,1.0,1297.25,...|
+| 2683.068839296689|           2548.48|[1.0,1.0,1458.9,0...|
+| 66462.14508297818|          67344.95|[1.0,1.0,47176.8,...|
+| 89879.62594239633|          91769.19|[1.0,1.0,61991.82...|
+| 92957.29962516094|           93412.3|[1.0,1.0,62293.82...|
+| 97800.78679523134|          97155.64|[1.0,1.0,65358.03...|
+|105752.30900924698|         104654.29|[1.0,1.0,69702.73...|
+|103957.73618847864|         105967.83|[1.0,1.0,72182.02...|
+|107421.32669203321|         106604.87|[1.0,1.0,73062.13...|
+|1164.8770760025575|            666.78|[1.0,2.0,475.44,0...|
+|166821.51543796845|         159893.65|[1.0,2.0,114888.0...|
++------------------+------------------+--------------------+
+only showing top 20 rows
+
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="gOGXTYODFMuM" data-outputId="bc48c350-2367-4a3b-a4ba-a7e7b321344e">
+<div class="sourceCode" id="cb69"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb69-1"><a href="#cb69-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.ml.evaluation <span class="im">import</span> RegressionEvaluator</span>
+<span id="cb69-2"><a href="#cb69-2" aria-hidden="true" tabindex="-1"></a>lr_evaluator <span class="op">=</span> RegressionEvaluator(predictionCol<span class="op">=</span><span class="st">&quot;prediction&quot;</span>, <span class="op">\</span></span>
+<span id="cb69-3"><a href="#cb69-3" aria-hidden="true" tabindex="-1"></a>                 labelCol<span class="op">=</span><span class="st">&quot;Total Compensation&quot;</span>,metricName<span class="op">=</span><span class="st">&quot;r2&quot;</span>)</span>
+<span id="cb69-4"><a href="#cb69-4" aria-hidden="true" tabindex="-1"></a>r2<span class="op">=</span>lr_evaluator.evaluate(predictionDF)</span>
+<span id="cb69-5"><a href="#cb69-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;R Squared (R2) on test data = </span><span class="sc">%g</span><span class="st">&quot;</span> <span class="op">%</span> r2)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>R Squared (R2) on test data = 0.997984
+</code></pre>
+</div>
+</div>
+<section
+id="8-fit-decision-tree-regression-model-on-the-data-and-check-its-performance-optional"
+class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;51e30540-ef2e-4239-b323-ba406674e87b&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+id="yb53Fy9yQP0i">
+<h3>8. Fit Decision Tree Regression model on the data and check its
+performance (Optional)</h3>
+</section>
+<div class="cell code" id="RW6JSw9TFbyn">
+<div class="sourceCode" id="cb71"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb71-1"><a href="#cb71-1" aria-hidden="true" tabindex="-1"></a><span class="co"># from pyspark.ml.regression import DecisionTreeRegressor</span></span>
+<span id="cb71-2"><a href="#cb71-2" aria-hidden="true" tabindex="-1"></a><span class="co"># dt = DecisionTreeRegressor(featuresCol =&#39;features&#39;, labelCol = &#39;Total Compensation&#39;, impurity=&#39;gini&#39;, maxDepth=5, maxBins=32)</span></span>
+<span id="cb71-3"><a href="#cb71-3" aria-hidden="true" tabindex="-1"></a><span class="co"># dt_model = dt.fit(train)</span></span>
+<span id="cb71-4"><a href="#cb71-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb71-5"><a href="#cb71-5" aria-hidden="true" tabindex="-1"></a><span class="co"># print(&quot;Coefficients: &quot; + str(dt_model.coefficients))</span></span>
+<span id="cb71-6"><a href="#cb71-6" aria-hidden="true" tabindex="-1"></a><span class="co"># print(&quot;Intercept: &quot; + str(dt_model.intercept))</span></span></code></pre></div>
+</div>
+<div class="cell code" data-collapsed="true" id="XVl80s2AQP0i">
+<div class="sourceCode" id="cb72"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb72-1"><a href="#cb72-1" aria-hidden="true" tabindex="-1"></a><span class="co"># from pyspark.ml.regression import DecisionTreeRegressor</span></span>
+<span id="cb72-2"><a href="#cb72-2" aria-hidden="true" tabindex="-1"></a><span class="co"># dt_model = DecisionTreeRegressor().fit(train)</span></span></code></pre></div>
+</div>
+<section id="model-persistence-optional" class="cell markdown"
+data-application/vnd.databricks.v1+cell="{&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;addb469a-37a3-47e8-8e65-4972a889cc4f&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+id="NPagi7ftQP0i">
+<h3>Model Persistence (Optional)</h3>
+<p>Model persistence means saving your model to a disk. After you
+finalize your model for prediction depending upon the performance, you
+need to save the model to the disk. Let's say, you finalize 'lrmodel' to
+be used for in production environment i.e. in your application. We use
+the following code to save it.</p>
+</section>
+<section id="saving-the-model" class="cell markdown" id="Id1_cG1yb_7n">
+<h5>Saving the model</h5>
+</section>
+<div class="cell code"
+data-application/vnd.databricks.v1+cell="{&quot;inputWidgets&quot;:{},&quot;nuid&quot;:&quot;be6d56cb-e99e-4b37-993b-ef66c9bf7963&quot;,&quot;showTitle&quot;:false,&quot;title&quot;:&quot;&quot;}"
+id="VHHfHnTgQP0i">
+<div class="sourceCode" id="cb73"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb73-1"><a href="#cb73-1" aria-hidden="true" tabindex="-1"></a><span class="co"># # use save() method to save the model</span></span>
+<span id="cb73-2"><a href="#cb73-2" aria-hidden="true" tabindex="-1"></a><span class="co"># # write().overwrite() is usually used when you want to replace the older model with a new one</span></span>
+<span id="cb73-3"><a href="#cb73-3" aria-hidden="true" tabindex="-1"></a><span class="co"># # It might happen that you wish to retrain your model and save it at the same the place</span></span>
+<span id="cb73-4"><a href="#cb73-4" aria-hidden="true" tabindex="-1"></a><span class="co"># lrmodel.write().overwrite().save(&quot;/FileStore/models/lrmodel&quot;)</span></span></code></pre></div>
+</div>
+<section id="loading-the-model" class="cell markdown" id="VzsuP83tcEVN">
+<h5>Loading the model</h5>
+</section>
+<div class="cell code" id="273mlbIPb8rY">
+<div class="sourceCode" id="cb74"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb74-1"><a href="#cb74-1" aria-hidden="true" tabindex="-1"></a><span class="co"># # import PipelineModel from pyspark.ml package</span></span>
+<span id="cb74-2"><a href="#cb74-2" aria-hidden="true" tabindex="-1"></a><span class="co"># from pyspark.ml import PipelineModel</span></span>
+<span id="cb74-3"><a href="#cb74-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb74-4"><a href="#cb74-4" aria-hidden="true" tabindex="-1"></a><span class="co"># # load the model from the location it is stored</span></span>
+<span id="cb74-5"><a href="#cb74-5" aria-hidden="true" tabindex="-1"></a><span class="co"># # The loaded model acts as PipelineModel</span></span>
+<span id="cb74-6"><a href="#cb74-6" aria-hidden="true" tabindex="-1"></a><span class="co"># pipemodel = PipelineModel.load(&quot;/FileStore/models/lrmodel&quot;)</span></span>
+<span id="cb74-7"><a href="#cb74-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb74-8"><a href="#cb74-8" aria-hidden="true" tabindex="-1"></a><span class="co"># # use the PipelineModel object to perform prediciton on test data. </span></span>
+<span id="cb74-9"><a href="#cb74-9" aria-hidden="true" tabindex="-1"></a><span class="co"># # Use .transform() to perfrom prediction</span></span>
+<span id="cb74-10"><a href="#cb74-10" aria-hidden="true" tabindex="-1"></a><span class="co"># prediction = pipemodel.transform(testDF)</span></span>
+<span id="cb74-11"><a href="#cb74-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb74-12"><a href="#cb74-12" aria-hidden="true" tabindex="-1"></a><span class="co"># # print the results</span></span>
+<span id="cb74-13"><a href="#cb74-13" aria-hidden="true" tabindex="-1"></a><span class="co"># prediction.select(&#39;label&#39;, &#39;rawPrediction&#39;, &#39;probability&#39;, &#39;prediction&#39;).show(5)</span></span></code></pre></div>
+</div>
+</body>
+</html>
